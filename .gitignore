@@ -1,0 +1,4 @@
+/scripts/
+/dist/
+/__pycache__/
+.vscodeignore
