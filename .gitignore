@@ -1,4 +1,5 @@
-/scripts/
 /dist/
+/dev/
 /__pycache__/
 .vscodeignore
+/.vscode/
