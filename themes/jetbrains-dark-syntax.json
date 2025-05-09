@@ -539,6 +539,8 @@
       "scope": [
         "entity.name.function.ts",
         "entity.name.function.js",
+        "entity.name.function.jsx",
+        "entity.name.function.tsx"
       ],
       "settings": {
         "foreground": "#56A8F5"
