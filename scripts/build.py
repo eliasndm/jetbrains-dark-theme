@@ -14,6 +14,7 @@ dist = os.path.join(repo, "dist")
 dist_pub = os.path.join(dist, THEME_DIRNAME)
 
 # Build package
+copy(os.path.join(repo, "LICENSE.txt"), dist_pub)
 copy(os.path.join(repo, "package.json"), dist_pub)
 copy(os.path.join(repo, "README.md"), dist_pub)
 copytree(os.path.join(repo, "themes"), os.path.join(dist_pub, "themes"), dirs_exist_ok=True)
