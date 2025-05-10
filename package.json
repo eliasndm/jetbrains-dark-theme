@@ -1,12 +1,15 @@
 {
   "name": "jetbrains-dark",
-  "displayName": "Jetbrains Dark Theme",
-  "description": "The faithful port of the JetBrains Dark Theme",
+  "displayName": "Jetbrains Dark (New) Theme",
+  "description": "A faithful port of the JetBrains Dark Theme",
   "version": "0.1.0",
-  "publisher": "eliasndm",
+  "publisher": "eliasnd",
+  "license": "MIT",
   "readme": "README.md",
   "scripts": {
-    "build": "./scripts/build.py"
+    "build": "./scripts/build.py",
+    "package": "cd dist/jetbrains-dark && vsce package",
+    "publish": "cd dist/jetbrains-dark && vsce publish"
   },
   "repository": {
     "type": "git",
@@ -16,7 +19,7 @@
     "url": "https://github.com/eliasndm/jetbrains-dark-theme/issues"
   },
   "engines": {
-    "vscode": "^1.99.0"
+    "vscode": "^1.50.0"
   },
   "keywords": [
 		"dark theme",
@@ -25,7 +28,7 @@
 		"webstorm",
 		"intellij",
 		"pycharm theme",
-		"rustrover theme",
+		"pale colors",
 		"webstorm theme",
 		"Jetbrains dark theme",
 		"Jetbrains new dark"
@@ -42,8 +45,8 @@
         "path": "./themes/jetbrains-dark.json"
       },
       {
-        "id": "VSCode Dark Modern",
-        "label": "JetBrains Dark",
+        "id": "JetBrains + VSCode Dark Modern",
+        "label": "JetBrains Dark (VSCode Modern)",
         "uiTheme": "vs-dark",
         "path": "./themes/jetbrains-dark-vscode.json"
       }
