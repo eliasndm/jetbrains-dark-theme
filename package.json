@@ -1,8 +1,8 @@
 {
   "name": "jetbrains-dark",
-  "displayName": "Jetbrains Dark (New) Theme",
+  "displayName": "JetBrains Dark (New) Theme",
   "description": "A faithful port of the JetBrains Dark Theme",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "eliasnd",
   "license": "MIT",
   "readme": "README.md",

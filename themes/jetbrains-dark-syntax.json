@@ -293,6 +293,19 @@
         "foreground": "#C77DBB"
       }
     },
+    // MARK: YAML
+    {
+      "name": "[YAML] Anchor & Alias",
+      "scope": [
+        "variable.other.anchor.yaml",
+        "variable.other.alias.yaml",
+        "punctuation.definition.anchor.yaml",
+        "punctuation.definition.alias.yaml"
+      ],
+      "settings": {
+        "foreground": "#E8BF6A",
+      }
+    },
     // #region MARK: HTML
     {
       "name": "[HTML] Tag",
@@ -606,24 +619,6 @@
     //   }
     // },
     {
-      "name": "[React] Class Component",
-      "scope": [
-        "support.class.component.tsx",
-      ],
-      "settings": {
-        "foreground": "#9C9CFF"
-      }
-    },
-    {
-      "name": "[React] Operator =",
-      "scope": [
-        "meta.tag.attributes.tsx keyword.operator.assignment.tsx",
-      ],
-      "settings": {
-        "foreground": "#6AAB73"
-      }
-    },
-    {
       "name": "[Typescript] Super Keyword",
       "scope": [
         "variable.language.super",
@@ -649,6 +644,35 @@
       ],
       "settings": {
         "foreground": "#42C3D4"
+      }
+    },
+    {
+      "name": "[React] Class Component",
+      "scope": [
+        "support.class.component.tsx",
+      ],
+      "settings": {
+        "foreground": "#9C9CFF"
+      }
+    },
+    {
+      "name": "[React] Operator =",
+      "scope": [
+        "meta.tag.attributes.tsx keyword.operator.assignment.tsx",
+      ],
+      "settings": {
+        "foreground": "#6AAB73"
+      }
+    },
+    {
+      "name": "[Vue] Directives",
+      "scope": [
+        "meta.attribute.directive.vue entity.other.attribute-name.html.vue",
+        "meta.attribute.directive.vue punctuation.attribute-shorthand.event.html.vue",
+        "meta.attribute.directive.vue punctuation.attribute-shorthand.bind.html.vue"
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
       }
     },
     // #endregion
@@ -1310,7 +1334,7 @@
     // #endregion
   ],
   // MARK: Semantic Highlighting
-  "semanticHighlighting": false,
+  "semanticHighlighting": true,
   "semanticTokenColors": {
     // Default
     "newOperator": "#BCBEC4",
