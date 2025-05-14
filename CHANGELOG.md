@@ -5,6 +5,7 @@
 ### Added
 - Add a Changelog file
 - Add highlighting rules for INI Files
+- Add bracket pair colorization colors
 
 ### Changed
 - Change color of Badge on Marketplace extension packs from blue to gray
@@ -14,6 +15,7 @@
 ### Fixed
 - Fix low contrast between current search match and other search matches 
 - Fix semantic highlighting rules for rust and python being commented out
+- Fix javadoc docstring commentblock not being styled correctly
 
 
 ## 0.1.1
