@@ -1409,7 +1409,7 @@
     "decorator": "#B3AE60",
     "variable.mutable": {"fontStyle": "underline"},
     "variable.declaration.mutable": {"fontStyle": "underline"},
-    "macro": "#FFC66D",
+    "macro:rust": "#FFC66D",
     "const.declaration.constant": {
       "foreground": "#C77DBB",
       "fontStyle": "italic"
