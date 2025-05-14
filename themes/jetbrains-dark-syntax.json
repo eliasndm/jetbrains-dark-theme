@@ -159,6 +159,15 @@
     		"foreground": "#56A8F5"
     	}
     },
+    {
+    	"name": "[Common] Function Entity Name",
+    	"scope": [
+    		"entity.name.function",
+    	],
+    	"settings": {
+    		"foreground": "#56A8F5"
+    	}
+    },
     // {
     // 	"name": "[Common] Type",
     // 	"scope": [
@@ -304,6 +313,31 @@
       ],
       "settings": {
         "foreground": "#E8BF6A",
+      }
+    },
+    // MARK: INI
+    {
+      "name": "[INI] Property",
+      "scope": ["keyword.other.definition.ini", "punctuation.separator.key-value.ini"],
+      "settings": {
+        "foreground": "#BCBEBC",
+      }
+    },
+    {
+      "name": "[INI] Property",
+      "scope": "source.ini",
+      "settings": {
+        "foreground": "#6AAB73",
+      }
+    },
+    {
+      "name": "[INI] Section Title",
+      "scope": [
+        "entity.name.section.group-title.ini",
+        "entity.name.section.group-title.ini punctuation.definition.entity.ini",
+      ],
+      "settings": {
+        "foreground": "#CF8E6D",
       }
     },
     // #region MARK: HTML
@@ -1352,42 +1386,47 @@
     "method.static:typescript": {
       "foreground": "#57AAF7",
       "fontStyle": "italic"
-    }
-    // // Python
-    // "variable.builtin.callable": "#8888C6",
-    // "function.builtin": "#8888C6",
-    // "function.decorator": "#B3AE60",
-    // "property.builtin": "#B200B6",
-    // "magicFunction": "#B200B6",
-    // "class": "#BCBEC4",
-    // "class.builtin": "#8888C6",
+    },
+    // Python
+    "selfParameter": "#94558D",
+    "clsParameter": "#94558D",
+    "variable.builtin.callable": "#8888C6",
+    "function.builtin": "#8888C6",
+    "function.decorator": "#B3AE60",
+    "parameter": "#AA4926",
+    "parameter.declaration": "#BCBEC4",
+    "property.builtin": "#B200B6",
+    "magicFunction": "#B200B6",
+    "magicFunction.declaration": "#B200B6",
+    "class": "#BCBEC4",
+    "class.builtin": "#8888C6",
     // "class.typeHint": "#16BAAC",
-    // "class.typeHint.builtin" : "#8888C6",
-    // "class.decorator.builtin": "#B3AE60",
-    // // Rust
-    // // "function.declaration": "#56A8F5",
-    // "struct": "#BCBEC4",
-    // "decorator": "#B3AE60",
-    // "variable.mutable": {"fontStyle": "underline"},
-    // "variable.declaration.mutable": {"fontStyle": "underline"},
-    // "macro": "#FFC66D",
-    // "const.declaration.constant": {
-    //   "foreground": "#C77DBB",
-    //   "fontStyle": "italic"
-    // },
-    // "property:rust": "#C77DBB",
-    // "property.declaration:rust": "#C77DBB",
-    // "derive": "#BCBEC4",
-    // "function.static.defaultLibrary.associated.library": {
-    //   "foreground": "#56A8F5",
-    //   "fontStyle": "italic"
-    // },
-    // "enumMember:rust": {
-    //   "foreground": "#C77DBB",
-    //   "fontStyle": "italic"
-    // },
-    // "formatSpecifier": "#CF8E6D"
+    "class.typeHint.builtin" : "#8888C6",
+    "class.decorator.builtin": "#B3AE60",
+    // Rust
+    "function.declaration": "#56A8F5",
+    "struct": "#BCBEC4",
+    "decorator": "#B3AE60",
+    "variable.mutable": {"fontStyle": "underline"},
+    "variable.declaration.mutable": {"fontStyle": "underline"},
+    "macro": "#FFC66D",
+    "const.declaration.constant": {
+      "foreground": "#C77DBB",
+      "fontStyle": "italic"
+    },
+    "property:rust": "#C77DBB",
+    "property.declaration:rust": "#C77DBB",
+    "derive": "#BCBEC4",
+    "function.static.defaultLibrary.associated.library:rust": {
+      "foreground": "#56A8F5",
+      "fontStyle": "italic"
+    },
+    "enumMember:rust": {
+      "foreground": "#C77DBB",
+      "fontStyle": "italic"
+    },
+    "formatSpecifier": "#CF8E6D",
     // Cpp
-    // "operatorOverload": "#5F8CBA"
+    "operatorOverload": "#5F8CBA"
   }
 }
