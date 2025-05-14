@@ -253,7 +253,9 @@
         "comment.block.documentation",
         "punctuation.definition.comment.begin.documentation",
         "punctuation.definition.comment.end.documentation",
-        "comment.block.documentation punctuation.definition.comment"
+        "comment.block.documentation punctuation.definition.comment",
+        "comment.block.javadoc.java",
+        "comment.block.javadoc.java punctuation.definition.comment.java"
       ],
       "settings": {
         "foreground": "#5F826B",
@@ -264,7 +266,8 @@
       "name": "[Common] Documentation Tag",
       "scope": [
         "comment.block.documentation storage.type.class",
-        "comment.block.documentation punctuation.definition.block.tag"
+        "comment.block.documentation punctuation.definition.block.tag",
+        "keyword.other.documentation.javadoc.java"
       ],
       "settings": {
         "foreground": "#67A37C"
