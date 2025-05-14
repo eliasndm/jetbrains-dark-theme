@@ -150,9 +150,9 @@
     "gitDecoration.untrackedResourceForeground": "#E88F89",
     "gitDecoration.ignoredResourceForeground": "#D69A6B",
     "gitDecoration.conflictingResourceForeground": "#DE6A66",
-    "editorLightBulb.foreground": "#f2c55c"
-    // "editorBracketHighlight.foreground1": "#56A8F5",
-    // "editorBracketHighlight.foreground2": "#CF8E6D",
-    // "editorBracketHighlight.foreground3": "#C77DBB"
+    "editorLightBulb.foreground": "#f2c55c",
+    "editorBracketHighlight.foreground1": "#467CDA",
+    "editorBracketHighlight.foreground2": "#C57633",
+    "editorBracketHighlight.foreground3": "#d064cc"
   }
 }
