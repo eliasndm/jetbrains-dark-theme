@@ -1,5 +1,23 @@
 # Changelog
 
+
+## 0.2.1
+
+### Changed
+- Change rule for highlighting parameters in darkred to only apply to python
+- Change highlighting of enum members in python to white as in the original jetbrains theme
+
+### Fixed
+- Fix Changelog file not being included in the distribution package
+- Fix highlighting issues in C++ files
+    - types not colored correclty
+    - storage modifier reference not colored correclty
+    - add rule to highlight enum members
+- Fix highlighting issues in Python files
+    - self and cls declaration not colored correctly
+    - property declaration not colored correctly
+
+
 ## 0.2.0
 
 ### Added
