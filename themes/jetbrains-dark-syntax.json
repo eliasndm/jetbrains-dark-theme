@@ -926,6 +926,15 @@
       }
     },
     {
+      "name": "[Cpp] Storage Modifier Reference",
+      "scope": [
+        "storage.modifier.reference.cpp",
+      ],
+      "settings": {
+        "foreground": "#BCBEC4",
+      }
+    },
+    {
       "name": "[Cpp] Macro Name Preprocessor",
       "scope": [
         "entity.name.function.preprocessor.cpp",
@@ -1403,6 +1412,7 @@
     "variable.builtin.callable": "#8888C6",
     "function.builtin": "#8888C6",
     "function.decorator": "#B3AE60",
+    "property.declaration": "#56A8F5",
     "parameter:python": "#AA4926",
     "parameter.declaration": "#BCBEC4",
     "property.builtin": "#B200B6",
