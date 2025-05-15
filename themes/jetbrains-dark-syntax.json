@@ -1414,10 +1414,10 @@
       "fontStyle": "italic"
     },
     // Python
-    "selfParameter": "#94558D",
-    "selfParameter.declaration": "#94558D",
-    "clsParameter": "#94558D",
-    "clsParameter.declaration": "#94558D",
+    "selfParameter:python": "#94558D",
+    "selfParameter.declaration:python": "#94558D",
+    "clsParameter:python": "#94558D",
+    "clsParameter.declaration:python": "#94558D",
     "variable.builtin.callable": "#8888C6",
     "function.builtin": "#8888C6",
     "function.decorator": "#B3AE60",
