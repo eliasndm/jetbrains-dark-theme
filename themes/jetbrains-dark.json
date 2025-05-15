@@ -10,7 +10,7 @@
     "activityBar.inactiveForeground": "#ffffff80",
     "activityBarBadge.background": "#3474f0",
     "activityBarBadge.foreground": "#ffffff",
-    "badge.background": "#3474f0",
+    "badge.background": "#4a4b4e",
     "badge.foreground": "#ffffff",
     "button.background": "#3474f0",
     "button.border": "#ffffff12",
@@ -32,11 +32,14 @@
     "dropdown.foreground": "#BCBEC4",
     "dropdown.listBackground": "#313131",
     "editor.background": "#1E1F22",
-    "editor.findMatchBackground": "#114957",
+    "editor.findMatchBackground": "#228ca77d",
     // "editor.findMatchBorder": "#ffffff",
-    "editor.findMatchHighlightBackground": "#114957ce",
+    "editor.findMatchHighlightBackground": "#1149577a",
     "editor.foreground": "#BCBEC4",
     "editor.selectionBackground": "#214283",
+    "editor.selectionHighlightBackground": "#373b39ad",
+    "editor.wordHighlightBackground": "#373b39ad",
+    "editor.wordHighlightTextBackground": "#373b39ad",
     "editorGroup.border": "#34373c",
     "editorGroupHeader.tabsBackground": "#1e1f22",
     "editorGroupHeader.tabsBorder": "#34373c",
@@ -147,9 +150,9 @@
     "gitDecoration.untrackedResourceForeground": "#E88F89",
     "gitDecoration.ignoredResourceForeground": "#D69A6B",
     "gitDecoration.conflictingResourceForeground": "#DE6A66",
-    "editorLightBulb.foreground": "#f2c55c"
-    // "editorBracketHighlight.foreground1": "#56A8F5",
-    // "editorBracketHighlight.foreground2": "#CF8E6D",
-    // "editorBracketHighlight.foreground3": "#C77DBB"
+    "editorLightBulb.foreground": "#f2c55c",
+    "editorBracketHighlight.foreground1": "#467CDA",
+    "editorBracketHighlight.foreground2": "#C57633",
+    "editorBracketHighlight.foreground3": "#d064cc"
   }
 }
