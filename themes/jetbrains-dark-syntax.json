@@ -764,6 +764,15 @@
       }
     },
     {
+      "name": "[Python] Enum Member",
+      "scope": [
+        "variable.other.enummember.python",
+      ],
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
+    {
       "name": "[Python] Number Binary Hex Octal",
       "scope": [
         "constant.numeric.oct storage.type.number.python",
