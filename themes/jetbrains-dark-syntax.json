@@ -159,6 +159,15 @@
     		"foreground": "#56A8F5"
     	}
     },
+    {
+    	"name": "[Common] Function Entity Name",
+    	"scope": [
+    		"entity.name.function",
+    	],
+    	"settings": {
+    		"foreground": "#56A8F5"
+    	}
+    },
     // {
     // 	"name": "[Common] Type",
     // 	"scope": [
@@ -244,7 +253,9 @@
         "comment.block.documentation",
         "punctuation.definition.comment.begin.documentation",
         "punctuation.definition.comment.end.documentation",
-        "comment.block.documentation punctuation.definition.comment"
+        "comment.block.documentation punctuation.definition.comment",
+        "comment.block.javadoc.java",
+        "comment.block.javadoc.java punctuation.definition.comment.java"
       ],
       "settings": {
         "foreground": "#5F826B",
@@ -255,7 +266,8 @@
       "name": "[Common] Documentation Tag",
       "scope": [
         "comment.block.documentation storage.type.class",
-        "comment.block.documentation punctuation.definition.block.tag"
+        "comment.block.documentation punctuation.definition.block.tag",
+        "keyword.other.documentation.javadoc.java"
       ],
       "settings": {
         "foreground": "#67A37C"
@@ -304,6 +316,31 @@
       ],
       "settings": {
         "foreground": "#E8BF6A",
+      }
+    },
+    // MARK: INI
+    {
+      "name": "[INI] Property",
+      "scope": ["keyword.other.definition.ini", "punctuation.separator.key-value.ini"],
+      "settings": {
+        "foreground": "#BCBEBC",
+      }
+    },
+    {
+      "name": "[INI] Property",
+      "scope": "source.ini",
+      "settings": {
+        "foreground": "#6AAB73",
+      }
+    },
+    {
+      "name": "[INI] Section Title",
+      "scope": [
+        "entity.name.section.group-title.ini",
+        "entity.name.section.group-title.ini punctuation.definition.entity.ini",
+      ],
+      "settings": {
+        "foreground": "#CF8E6D",
       }
     },
     // #region MARK: HTML
@@ -727,6 +764,15 @@
       }
     },
     {
+      "name": "[Python] Enum Member",
+      "scope": [
+        "variable.other.enummember.python",
+      ],
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
+    {
       "name": "[Python] Number Binary Hex Octal",
       "scope": [
         "constant.numeric.oct storage.type.number.python",
@@ -876,6 +922,25 @@
       ],
       "settings": {
         "foreground": "#5F8CBA"
+      }
+    },
+    {
+      "name": "[Cpp] Enum Member",
+      "scope": [
+        "variable.other.enummember.cpp",
+      ],
+      "settings": {
+        "foreground": "#C77DBB",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[Cpp] Storage Modifier Reference",
+      "scope": [
+        "storage.modifier.reference.cpp",
+      ],
+      "settings": {
+        "foreground": "#BCBEC4",
       }
     },
     {
@@ -1336,11 +1401,6 @@
   // MARK: Semantic Highlighting
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    // Default
-    "newOperator": "#BCBEC4",
-    "stringLiteral": "#6AAB73",
-    "customLiteral": "#BCBEC4",
-    "numberLiteral": "#2AACB8",
     // // Common
     // "comment.documentation": "#5F826B",
     // Javascript
@@ -1352,42 +1412,57 @@
     "method.static:typescript": {
       "foreground": "#57AAF7",
       "fontStyle": "italic"
-    }
-    // // Python
-    // "variable.builtin.callable": "#8888C6",
-    // "function.builtin": "#8888C6",
-    // "function.decorator": "#B3AE60",
-    // "property.builtin": "#B200B6",
-    // "magicFunction": "#B200B6",
-    // "class": "#BCBEC4",
-    // "class.builtin": "#8888C6",
+    },
+    // Python
+    "selfParameter": "#94558D",
+    "selfParameter.declaration": "#94558D",
+    "clsParameter": "#94558D",
+    "clsParameter.declaration": "#94558D",
+    "variable.builtin.callable": "#8888C6",
+    "function.builtin": "#8888C6",
+    "function.decorator": "#B3AE60",
+    "property.declaration": "#56A8F5",
+    "parameter:python": "#AA4926",
+    "parameter.declaration": "#BCBEC4",
+    "property.builtin": "#B200B6",
+    "magicFunction": "#B200B6",
+    "magicFunction.declaration": "#B200B6",
+    "class": "#BCBEC4",
     // "class.typeHint": "#16BAAC",
-    // "class.typeHint.builtin" : "#8888C6",
-    // "class.decorator.builtin": "#B3AE60",
-    // // Rust
-    // // "function.declaration": "#56A8F5",
-    // "struct": "#BCBEC4",
-    // "decorator": "#B3AE60",
-    // "variable.mutable": {"fontStyle": "underline"},
-    // "variable.declaration.mutable": {"fontStyle": "underline"},
-    // "macro": "#FFC66D",
-    // "const.declaration.constant": {
-    //   "foreground": "#C77DBB",
-    //   "fontStyle": "italic"
-    // },
-    // "property:rust": "#C77DBB",
-    // "property.declaration:rust": "#C77DBB",
-    // "derive": "#BCBEC4",
-    // "function.static.defaultLibrary.associated.library": {
-    //   "foreground": "#56A8F5",
-    //   "fontStyle": "italic"
-    // },
-    // "enumMember:rust": {
-    //   "foreground": "#C77DBB",
-    //   "fontStyle": "italic"
-    // },
-    // "formatSpecifier": "#CF8E6D"
-    // Cpp
-    // "operatorOverload": "#5F8CBA"
+    // "class.typeHint": "#1DB8AB",
+    "class.builtin": "#8888C6",
+    "class.typeHint.builtin" : "#8888C6",
+    "class.decorator.builtin": "#B3AE60",
+    // Rust
+    "function.declaration": "#56A8F5",
+    "struct": "#BCBEC4",
+    "decorator": "#B3AE60",
+    "variable.mutable": {"fontStyle": "underline"},
+    "variable.declaration.mutable": {"fontStyle": "underline"},
+    "macro:rust": "#FFC66D",
+    "const.declaration.constant": {
+      "foreground": "#C77DBB",
+      "fontStyle": "italic"
+    },
+    "property:rust": "#C77DBB",
+    "property.declaration:rust": "#C77DBB",
+    "derive": "#BCBEC4",
+    "function.static.defaultLibrary.associated.library:rust": {
+      "foreground": "#56A8F5",
+      "fontStyle": "italic"
+    },
+    "enumMember:rust": {
+      "foreground": "#C77DBB",
+      "fontStyle": "italic"
+    },
+    "formatSpecifier": "#CF8E6D",
+    // C++
+    "newOperator": "#CF8E6D",
+    "stringLiteral": "#6AAB73",
+    "customLiteral": "#BCBEC4",
+    "numberLiteral": "#2AACB8",
+    "operatorOverload": "#5F8CBA",
+    "memberOperatorOverload": "#5F8CBA",
+    "type:cpp": "#B5B6E3"
   }
 }
