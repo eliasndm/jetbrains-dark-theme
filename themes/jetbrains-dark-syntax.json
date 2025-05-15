@@ -916,6 +916,16 @@
       }
     },
     {
+      "name": "[Cpp] Enum Member",
+      "scope": [
+        "variable.other.enummember.cpp",
+      ],
+      "settings": {
+        "foreground": "#C77DBB",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "[Cpp] Macro Name Preprocessor",
       "scope": [
         "entity.name.function.preprocessor.cpp",
