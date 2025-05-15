@@ -1373,11 +1373,6 @@
   // MARK: Semantic Highlighting
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    // C++
-    "newOperator": "#CF8E6D",
-    "stringLiteral": "#6AAB73",
-    "customLiteral": "#BCBEC4",
-    "numberLiteral": "#2AACB8",
     // // Common
     // "comment.documentation": "#5F826B",
     // Javascript
@@ -1398,7 +1393,7 @@
     "variable.builtin.callable": "#8888C6",
     "function.builtin": "#8888C6",
     "function.decorator": "#B3AE60",
-    "parameter": "#AA4926",
+    "parameter:python": "#AA4926",
     "parameter.declaration": "#BCBEC4",
     "property.builtin": "#B200B6",
     "magicFunction": "#B200B6",
@@ -1432,7 +1427,13 @@
       "fontStyle": "italic"
     },
     "formatSpecifier": "#CF8E6D",
-    // Cpp
-    "operatorOverload": "#5F8CBA"
+    // C++
+    "newOperator": "#CF8E6D",
+    "stringLiteral": "#6AAB73",
+    "customLiteral": "#BCBEC4",
+    "numberLiteral": "#2AACB8",
+    "operatorOverload": "#5F8CBA",
+    "memberOperatorOverload": "#5F8CBA",
+    "type:cpp": "#B5B6E3"
   }
 }
