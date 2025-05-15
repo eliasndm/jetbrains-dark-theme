@@ -1392,7 +1392,9 @@
     },
     // Python
     "selfParameter": "#94558D",
+    "selfParameter.declaration": "#94558D",
     "clsParameter": "#94558D",
+    "clsParameter.declaration": "#94558D",
     "variable.builtin.callable": "#8888C6",
     "function.builtin": "#8888C6",
     "function.decorator": "#B3AE60",
@@ -1402,8 +1404,9 @@
     "magicFunction": "#B200B6",
     "magicFunction.declaration": "#B200B6",
     "class": "#BCBEC4",
-    "class.builtin": "#8888C6",
     // "class.typeHint": "#16BAAC",
+    // "class.typeHint": "#1DB8AB",
+    "class.builtin": "#8888C6",
     "class.typeHint.builtin" : "#8888C6",
     "class.decorator.builtin": "#B3AE60",
     // Rust
