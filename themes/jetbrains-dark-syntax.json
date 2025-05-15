@@ -230,7 +230,7 @@
       "scope": [
         "variable.object.property",
         // "variable.other.property",
-        "variable.other.enummember"
+        // "variable.other.enummember"
       ],
       "settings": {
         "foreground": "#C77DBB"
