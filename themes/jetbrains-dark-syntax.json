@@ -1373,8 +1373,8 @@
   // MARK: Semantic Highlighting
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    // Default
-    "newOperator": "#BCBEC4",
+    // C++
+    "newOperator": "#CF8E6D",
     "stringLiteral": "#6AAB73",
     "customLiteral": "#BCBEC4",
     "numberLiteral": "#2AACB8",
