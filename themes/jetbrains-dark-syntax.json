@@ -1421,7 +1421,7 @@
     "variable.builtin.callable": "#8888C6",
     "function.builtin": "#8888C6",
     "function.decorator": "#B3AE60",
-    "property.declaration": "#56A8F5",
+    // "property.declaration": "#56A8F5",
     "parameter:python": "#AA4926",
     "parameter.declaration": "#BCBEC4",
     "property.builtin": "#B200B6",
