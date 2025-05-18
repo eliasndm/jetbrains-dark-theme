@@ -1,6 +1,6 @@
 /dist/
 /dev/
-/__pycache__/
+**/__pycache__/
 .vscodeignore
 /.vscode/
 .DS_Store
