@@ -568,11 +568,21 @@
     {
       "name": "[TS] Decorator",
       "scope": [
-        "meta.decorator.js variable.other.readwrite.js ",
-        "meta.decorator.ts variable.other.readwrite.ts "
+        "meta.decorator.js variable.other.readwrite.js",
+        "meta.decorator.ts variable.other.readwrite.ts"
       ],
       "settings": {
         "foreground": "#B3AE60"
+      }
+    },
+    {
+      "name": "[TS] Builtin Type",
+      "scope": [
+        "support.type.builtin.ts",
+        "support.type.builtin.js",
+      ],
+      "settings": {
+        "foreground": "#8888C6"
       }
     },
     {
@@ -611,6 +621,10 @@
         "storage.type.class",
         "keyword.operator.expression.keyof",
         "keyword.operator.expression.typeof",
+        "keyword.operator.expression.in",
+        "keyword.operator.expression.of",
+        "keyword.operator.expression.delete.js",
+        "keyword.operator.expression.delete.ts",
         "variable.language.this"
       ],
       "settings": {
@@ -683,6 +697,7 @@
         "foreground": "#42C3D4"
       }
     },
+    // MARK: React
     {
       "name": "[React] Class Component",
       "scope": [
@@ -701,12 +716,14 @@
         "foreground": "#6AAB73"
       }
     },
+    // MARK: Vue
     {
       "name": "[Vue] Directives",
       "scope": [
         "meta.attribute.directive.vue entity.other.attribute-name.html.vue",
         "meta.attribute.directive.vue punctuation.attribute-shorthand.event.html.vue",
-        "meta.attribute.directive.vue punctuation.attribute-shorthand.bind.html.vue"
+        "meta.attribute.directive.vue punctuation.attribute-shorthand.bind.html.vue",
+        "punctuation.attribute-shorthand.slot.html.vue"
       ],
       "settings": {
         "foreground": "#CF8E6D"
@@ -1463,6 +1480,8 @@
     "numberLiteral": "#2AACB8",
     "operatorOverload": "#5F8CBA",
     "memberOperatorOverload": "#5F8CBA",
-    "type:cpp": "#B5B6E3"
+    "type:cpp": "#B5B6E3",
+    // Vue
+    "class:vue": "#9C9CFF"
   }
 }
