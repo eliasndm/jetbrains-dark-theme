@@ -1438,6 +1438,7 @@
     "variable.builtin.callable": "#8888C6",
     "function.builtin": "#8888C6",
     "function.decorator": "#B3AE60",
+    "keyword.overridden:python": "#CF8E6D",
     // "property.declaration": "#56A8F5",
     // "parameter:python": "#AA4926",
     // "parameter.declaration": "#BCBEC4",
