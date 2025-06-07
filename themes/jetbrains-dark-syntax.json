@@ -1458,6 +1458,7 @@
     "variable.mutable": {"fontStyle": "underline"},
     "variable.declaration.mutable": {"fontStyle": "underline"},
     "macro:rust": "#FFC66D",
+    "attributeBracket:rust": "#B3AE60",
     "const.declaration.constant": {
       "foreground": "#C77DBB",
       "fontStyle": "italic"
