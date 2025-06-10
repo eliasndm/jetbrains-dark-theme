@@ -1049,10 +1049,11 @@
     {
       "name": "[Rust] Metavariable Name",
       "scope": [
+        "entity.name.type.metavariable.rust",
         "variable.other.metavariable.name.rust",
       ],
       "settings": {
-        "foreground": "#56A865"
+        "foreground": "#56A8F5"
       }
     },
     {
@@ -1419,7 +1420,7 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     // // Common
-    // "comment.documentation": "#5F826B",
+    "comment.documentation": "#5F826B",
     // Javascript
     "method.static:javascript": {
       "foreground": "#57AAF7",
