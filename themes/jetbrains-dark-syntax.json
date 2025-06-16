@@ -142,6 +142,15 @@
       }
     },
     {
+      "name": "[Common] Constant Character",
+      "scope": [
+        "constant.character"
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+    {
       "name": "[Common] Function Definition",
       "scope": [
         "entity.name.function.definition"
@@ -163,6 +172,15 @@
     	"name": "[Common] Function Entity Name",
     	"scope": [
     		"entity.name.function",
+    	],
+    	"settings": {
+    		"foreground": "#56A8F5"
+    	}
+    },
+    {
+    	"name": "[Common] Support Function",
+    	"scope": [
+    		"support.function",
     	],
     	"settings": {
     		"foreground": "#56A8F5"
