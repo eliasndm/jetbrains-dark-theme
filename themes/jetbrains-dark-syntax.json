@@ -715,24 +715,6 @@
         "foreground": "#6AAB73"
       }
     },
-    // {
-    //   "name": "Python Function Declaration",
-    //   "scope": [
-    //     "entity.name.function.python",
-    //   ],
-    //   "settings": {
-    //     "foreground": "#56A8F5"
-    //   }
-    // },
-    // {
-    //   "name": "Python Generic Function Call",
-    //   "scope": [
-    //     "meta.function-call.generic.python",
-    //   ],
-    //   "settings": {
-    //     "foreground": "#56A8F5"
-    //   }
-    // },
     {
       "name": "[Python] Builtin",
       "scope": [
