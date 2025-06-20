@@ -381,16 +381,6 @@
       }
     },
     {
-      "name": "[HTML] Punctuation Separator (=)",
-      "scope": [
-        "punctuation.separator.key-value.html",
-        "meta.tag.xml"
-      ],
-      "settings": {
-        "foreground": "#6AAB73"
-      }
-    },
-    {
       "name": "[XML] Attribute Name",
       "scope": [
         // "entity.other.attribute-name.localname.xml",
