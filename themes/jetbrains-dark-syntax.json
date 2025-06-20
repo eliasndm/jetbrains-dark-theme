@@ -725,15 +725,15 @@
         "foreground": "#8888C6"
       }
     },
-    {
-      "name": "[Python] Attribute Caps Enum & Constant",
-      "scope": [
-        "constant.other.caps.python",
-      ],
-      "settings": {
-        "foreground": "#C77DBB"
-      }
-    },
+    // {
+    //   "name": "[Python] Attribute Caps Enum & Constant",
+    //   "scope": [
+    //     "constant.other.caps.python",
+    //   ],
+    //   "settings": {
+    //     "foreground": "#C77DBB"
+    //   }
+    // },
     {
       "name": "[Python] Enum Member",
       "scope": [
@@ -746,9 +746,7 @@
     {
       "name": "[Python] Number Binary Hex Octal",
       "scope": [
-        "constant.numeric.oct storage.type.number.python",
-        "constant.numeric.hex storage.type.number.python",
-        "constant.numeric.bin storage.type.number.python",
+        "storage.type.number.python",
       ],
       "settings": {
         "foreground": "#2AACB8"
