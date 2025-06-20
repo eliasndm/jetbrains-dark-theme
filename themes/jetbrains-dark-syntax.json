@@ -218,15 +218,6 @@
         "foreground": "#CF8E6D"
       }
     },
-    // {
-    //   "name": "[Common] Regex",
-    //   "scope": [
-    //     "string.regexp",
-    //   ],
-    //   "settings": {
-    //     "foreground": "#42C3D4"
-    //   }
-    // },
     {
       "name": "[Common] Property",
       "scope": [
@@ -713,6 +704,15 @@
       "settings": {
         "foreground": "#5F826B",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python Regex String",
+      "scope": [
+        "string.regexp.quoted.single.python",
+      ],
+      "settings": {
+        "foreground": "#6AAB73"
       }
     },
     // {
