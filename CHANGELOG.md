@@ -1,11 +1,36 @@
 # Changelog
 
+## 0.2.3
+
+### Changed
+- Reworked a lot of rules
+- Markdown bold, italic and italic, bold markup is now styled accordingly
+- `support.function` now colored like `entity.name.function`
+- simplified rule for coloring `storage.type.number.python`
+
+### Fixed
+- Fixed Changelog was not updated correctly
+- Fixed token `keyword.overriden` colored as magic variable in Python
+
+### Removed
+- Removed highlighting rules for regex
+- Removed Duplicate rule
+- Removed rule for coloring python functions individually
+
+## 0.2.2
+
+### Fixed
+- Fix highlighting issues in Python files
+    - self and cls declaration not colored correctly
+    - property declaration not colored correctly
+- Fix python enum member color
+
 
 ## 0.2.1
 
 ### Changed
 - Change rule for highlighting parameters in darkred to only apply to python
-- Change highlighting of enum members in python to white as in the original jetbrains theme
+- Change highlighting of enum members in python to white as in the original JetBrains theme
 
 ### Fixed
 - Fix Changelog file not being included in the distribution package
@@ -13,9 +38,6 @@
     - types not colored correclty
     - storage modifier reference not colored correclty
     - add rule to highlight enum members
-- Fix highlighting issues in Python files
-    - self and cls declaration not colored correctly
-    - property declaration not colored correctly
 
 
 ## 0.2.0
