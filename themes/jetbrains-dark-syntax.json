@@ -1256,6 +1256,33 @@
       }
     },
     {
+      "name": "[Markdown] Bold Markup",
+      "scope": [
+        "markup.bold.markdown",
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "[Markdown] Italic Markup",
+      "scope": [
+        "markup.italic.markdown",
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[Markdown] Bold Italic Markup",
+      "scope": [
+        "markup.bold.markdown markup.italic.markdown",
+      ],
+      "settings": {
+        "fontStyle": "italic bold"
+      }
+    },
+    {
       "name": "[Markdown] Strikethrough",
       "scope": [
         "markup.strikethrough.markdown",
