@@ -850,6 +850,16 @@
     {
       "name": "[C] storage.type.number",
       "scope": [
+        "string.quoted.other.lt-gt.include.c",
+        "string.quoted.other.lt-gt.include.cpp"
+      ],
+      "settings": {
+        "foreground": "#6AAB73"
+      }
+    },
+    {
+      "name": "[C] storage.type.number",
+      "scope": [
         "keyword.other.unit.binary.c",
         "keyword.other.unit.octal.c",
         "keyword.other.unit.hexadecimal.c",
