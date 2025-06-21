@@ -458,7 +458,9 @@
       "name": "[CSS] Propery Value & Units & Color Name",
       "scope": [
         "constant.character.escape.scss",
-        "keyword.other.unit",
+        "keyword.other.unit.css",
+        "keyword.other.unit.scss",
+        "keyword.other.unit.less",
         "keyword.operator.gradient",
         "source.css support.constant",
         "source.scss support.constant"
@@ -843,6 +845,17 @@
       ],
       "settings": {
         "foreground": "#B3AE60"
+      }
+    },
+    {
+      "name": "[C] storage.type.number",
+      "scope": [
+        "keyword.other.unit.binary.c",
+        "keyword.other.unit.octal.c",
+        "keyword.other.unit.hexadecimal.c",
+      ],
+      "settings": {
+        "foreground": "#2AACB8"
       }
     },
     {
