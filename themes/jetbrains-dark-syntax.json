@@ -458,9 +458,9 @@
       "name": "[CSS] Propery Value & Units & Color Name",
       "scope": [
         "constant.character.escape.scss",
-        "keyword.other.unit.css",
-        "keyword.other.unit.scss",
-        "keyword.other.unit.less",
+        "source.css keyword.other.unit",
+        "source.scss keyword.other.unit",
+        "source.less keyword.other.unit",
         "keyword.operator.gradient",
         "source.css support.constant",
         "source.scss support.constant"
