@@ -45,8 +45,14 @@
         "path": "./themes/jetbrains-dark.json"
       },
       {
+        "id": "JetBrains Vibrant",
+        "label": "JetBrains Dark Vibrant",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jetbrains-dark-vibrant.json"
+      },
+      {
         "id": "JetBrains + VSCode Dark Modern",
-        "label": "JetBrains Dark (VSCode Modern)",
+        "label": "JetBrains Dark VSCode Modern",
         "uiTheme": "vs-dark",
         "path": "./themes/jetbrains-dark-vscode.json"
       }
