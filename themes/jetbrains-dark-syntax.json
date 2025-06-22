@@ -1006,6 +1006,15 @@
       }
     },
     {
+      "name": "[Rust] Keyword questionmark",
+      "scope": [
+        "keyword.operator.question.rust"
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+    {
       "name": "[Rust] Macro",
       "scope": [
         "entity.name.function.macro.rust",
@@ -1398,6 +1407,7 @@
     "class.decorator.builtin": "#B3AE60",
     // Rust
     "function.declaration": "#56A8F5",
+    "operator.controlFlow": "#CF8E6D",
     "struct": "#BCBEC4",
     "decorator": "#B3AE60",
     "variable.mutable": {"fontStyle": "underline"},
