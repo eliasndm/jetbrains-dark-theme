@@ -689,24 +689,13 @@
     },
     // MARK: Vue
     {
-      "name": "[Vue] Directives",
-      "scope": [
-        "meta.attribute.directive.vue entity.other.attribute-name.html.vue",
-        "meta.attribute.directive.vue punctuation.attribute-shorthand.event.html.vue",
-        "meta.attribute.directive.vue punctuation.attribute-shorthand.bind.html.vue",
-        "punctuation.attribute-shorthand.slot.html.vue"
-      ],
-      "settings": {
-        "foreground": "#CF8E6D"
-      }
-    },
-    {
       "name": "[Vue] Special Tags",
       "scope": [
         "entity.name.tag.style.html.vue",
         "entity.name.tag.script.html.vue",
         "entity.name.tag.template.html.vue",
-        "meta.tag.structure.slot.start.html entity.name.tag.html"
+        "meta.tag.structure.slot.start.html entity.name.tag.html",
+        "meta.tag.structure.slot.end.html entity.name.tag.html"
       ],
       "settings": {
         "foreground": "#2FBAA3"
