@@ -634,15 +634,16 @@
     //     "foreground": "#1DB8AB"
     //   }
     // },
-    // {
-    //   "name": "[Typescript] Super Keyword",
-    //   "scope": [
-    //     "variable.language.super",
-    //   ],
-    //   "settings": {
-    //     "foreground": "#CF8E6D"
-    //   }
-    // },
+    {
+      "name": "[typescript, javascript] Super Keyword",
+      "scope": [
+        "variable.language.super.js",
+        "variable.language.super.ts",
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
     // {
     //   "name": "[JS] String Interpolation",
     //   "scope": [
