@@ -700,6 +700,18 @@
         "foreground": "#CF8E6D"
       }
     },
+    {
+      "name": "[Vue] Special Tags",
+      "scope": [
+        "entity.name.tag.style.html.vue",
+        "entity.name.tag.script.html.vue",
+        "entity.name.tag.template.html.vue",
+        "meta.tag.structure.slot.start.html entity.name.tag.html"
+      ],
+      "settings": {
+        "foreground": "#2FBAA3"
+      }
+    },
     // #endregion
     // #region MARK: Python
     {
@@ -1419,6 +1431,6 @@
     "memberOperatorOverload": "#5F8CBA",
     "type:cpp": "#B5B6E3",
     // Vue
-    "class:vue": "#9C9CFF"
+    "class:vue": "#2FBAA3"
   }
 }
