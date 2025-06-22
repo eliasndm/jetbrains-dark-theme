@@ -701,6 +701,15 @@
         "foreground": "#2FBAA3"
       }
     },
+    {
+      "name": "[Vue] template.tag.nested.fix",
+      "scope": [
+        "text.html.derivative entity.name.tag.template.html.vue"
+      ],
+      "settings": {
+        "foreground": "#D5B778"
+      }
+    },
     // #endregion
     // #region MARK: Python
     {
