@@ -1232,6 +1232,33 @@
       }
     },
     //#endregion
+    // #region MARK: Tex | Latex
+    {
+      "name": "[Tex] Section",
+      "scope": ["support.function.section"],
+      "settings": {
+        "foreground": "#94558D",
+      }
+    },
+    {
+      "name": "[Tex] Environment Parameter",
+      "scope": ["variable.parameter.function.latex"],
+      "settings": {
+        "foreground": "#B3AE60",
+      }
+    },
+    {
+      "name": "[Tex] Math Environment",
+      "scope": [
+        "text.tex support.class.math",
+        "text.tex support.class.math punctuation.definition.string.end",
+        "text.tex support.class.math punctuation.definition.string.begin",
+      ],
+      "settings": {
+        "foreground": "#16BAAC",
+      }
+    },
+    //#endregion
     // #region MARK: Markdown
     {
       "name": "[Markdown] Separator",
