@@ -762,6 +762,15 @@
       }
     },
     {
+      "name": "[Python] storage.type.string",
+      "scope": [
+        "storage.type.string.python",
+      ],
+      "settings": {
+        "foreground": "#6AAB73"
+      }
+    },
+    {
       "name": "[Python] String Binary",
       "scope": [
         "string.quoted.binary.single.python",
