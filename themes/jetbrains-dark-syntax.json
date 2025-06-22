@@ -732,15 +732,6 @@
         "foreground": "#8888C6"
       }
     },
-    // {
-    //   "name": "[Python] Attribute Caps Enum & Constant",
-    //   "scope": [
-    //     "constant.other.caps.python",
-    //   ],
-    //   "settings": {
-    //     "foreground": "#C77DBB"
-    //   }
-    // },
     {
       "name": "[Python] Enum Member",
       "scope": [
@@ -842,7 +833,6 @@
     {
       "name": "[C] Control Directive define",
       "scope": [
-        // "keyword.control.directive.define.c",
         "source.c keyword.control.directive",
         "source.cpp keyword.control.directive",
         "punctuation.definition.directive.c",
@@ -995,15 +985,6 @@
         "foreground": "#20999D"
       }
     },
-    // {
-    //   "name": "[Rust] Type Parameter",
-    //   "scope": [
-    //     "entity.name.type.rust",
-    //   ],
-    //   "settings": {
-    //     "foreground": "#16BAAC"
-    //   }
-    // },
     {
       "name": "[Rust] Self Keyword",
       "scope": [
@@ -1231,26 +1212,6 @@
       }
     },
     //#endregion
-    //#region MARK: Regex
-    // {
-    //   "name": "[Regex] Regex Character Class",
-    //   "scope": [
-    //     "constant.other.character-class.regexp",
-    //   ],
-    //   "settings": {
-    //     "foreground": "#B2AE60"
-    //   }
-    // },
-    // {
-    //   "name": "[Regex] Regex Quantifier",
-    //   "scope": [
-    //     "keyword.operator.quantifier.regexp",
-    //   ],
-    //   "settings": {
-    //     "foreground": "#2AACB8"
-    //   }
-    // },
-    //#endregion
     // #region MARK: Markdown
     {
       "name": "[Markdown] Separator",
@@ -1396,7 +1357,7 @@
   // MARK: Semantic Highlighting
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    // // Common
+    // Common
     "comment.documentation": "#5F826B",
     // Javascript
     "method.static:javascript": {
@@ -1417,15 +1378,10 @@
     "function.builtin": "#8888C6",
     "function.decorator": "#B3AE60",
     "keyword.overridden:python": "#CF8E6D",
-    // "property.declaration": "#56A8F5",
-    // "parameter:python": "#AA4926",
-    // "parameter.declaration": "#BCBEC4",
     "property.builtin": "#B200B6",
     "magicFunction": "#B200B6",
     "magicFunction.declaration": "#B200B6",
     "class": "#BCBEC4",
-    // "class.typeHint": "#16BAAC",
-    // "class.typeHint": "#1DB8AB",
     "class.builtin": "#8888C6",
     "class.typeHint.builtin" : "#8888C6",
     "class.decorator.builtin": "#B3AE60",
