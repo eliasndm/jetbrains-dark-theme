@@ -153,6 +153,20 @@
     "editorLightBulb.foreground": "#f2c55c",
     "editorBracketHighlight.foreground1": "#467CDA",
     "editorBracketHighlight.foreground2": "#C57633",
-    "editorBracketHighlight.foreground3": "#d064cc"
+    "editorBracketHighlight.foreground3": "#d064cc",
+    "terminal.ansiBlack": "#000000",
+    "terminal.ansiBrightWhite": "#ffffff",
+    "terminal.ansiRed": "#F0524F",
+    "terminal.ansiGreen": "#5C962C",
+    "terminal.ansiYellow": "#A68A0D",
+    "terminal.ansiBlue": "#3993D4",
+    "terminal.ansiMagenta": "#A771BF",
+    "terminal.ansiCyan": "#00A3A3",
+    "terminal.ansiBrightRed": "#FF4050",
+    "terminal.ansiBrightGreen": "#4FC414",
+    "terminal.ansiBrightYellow": "#E5BF00",
+    "terminal.ansiBrightBlue": "#1FB0FF",
+    "terminal.ansiBrightMagenta": "#ED7EED",
+    "terminal.ansiBrightCyan": "#00E5E5"
   }
 }
