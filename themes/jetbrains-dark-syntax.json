@@ -1447,11 +1447,13 @@
       "foreground": "#57AAF7",
       "fontStyle": "italic"
     },
+    "variable.local:javascript": "#A9B7C6",
     // Typescript
     "method.static:typescript": {
       "foreground": "#57AAF7",
       "fontStyle": "italic"
     },
+    "variable.local:typescript": "#A9B7C6",
     // Python
     "selfParameter:python": "#94558D",
     "selfParameter.declaration:python": "#94558D",
