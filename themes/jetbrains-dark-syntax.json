@@ -590,6 +590,7 @@
         "keyword.operator.expression.of",
         "keyword.operator.expression.delete.js",
         "keyword.operator.expression.delete.ts",
+        "keyword.operator.expression.instanceof",
         "variable.language.this"
       ],
       "settings": {
