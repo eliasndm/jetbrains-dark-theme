@@ -648,7 +648,11 @@
       "name": "[JS] String Interpolation",
       "scope": [
         "punctuation.definition.template-expression.begin",
-        "punctuation.definition.template-expression.end"
+        "punctuation.definition.template-expression.end",
+        "string.template variable",
+        "string.template meta.brace",
+        "string.template punctuation.accessor",
+        "string.template support.variable"
       ],
       "settings": {
         "foreground": "#BCBEC4"
