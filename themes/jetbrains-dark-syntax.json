@@ -636,6 +636,18 @@
     //   }
     // },
     {
+      "name": "[typescript, javascript] property",
+      "scope": [
+        "variable.other.object.property.js",
+        "variable.other.object.property.ts",
+        "variable.other.property.js",
+        "variable.other.property.ts"
+      ],
+      "settings": {
+        "foreground": "#C77DBB"
+      }
+    },
+    {
       "name": "[typescript, javascript] Super Keyword",
       "scope": [
         "variable.language.super.js",
