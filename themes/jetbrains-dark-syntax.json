@@ -1470,6 +1470,10 @@
       "foreground": "#C77DBB",
       "fontStyle": "italic"
     },
+    "enumMember:typescript": {
+      "foreground": "#C77DBB",
+      "italic": true
+    },
     // Python
     "selfParameter:python": "#94558D",
     "selfParameter.declaration:python": "#94558D",
