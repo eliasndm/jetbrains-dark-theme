@@ -1448,12 +1448,28 @@
       "fontStyle": "italic"
     },
     "variable.local:javascript": "#A9B7C6",
+    "variable.defaultLibrary:javascript": {
+      "foreground": "#C77DBB",
+      "fontStyle": "italic"
+    },
+    "class.defaultLibrary:javascript": {
+      "foreground": "#C77DBB",
+      "fontStyle": "italic"
+    },
     // Typescript
     "method.static:typescript": {
       "foreground": "#57AAF7",
       "fontStyle": "italic"
     },
     "variable.local:typescript": "#A9B7C6",
+    "variable.defaultLibrary:typescript": {
+      "foreground": "#C77DBB",
+      "fontStyle": "italic"
+    },
+    "class.defaultLibrary:typescript": {
+      "foreground": "#C77DBB",
+      "fontStyle": "italic"
+    },
     // Python
     "selfParameter:python": "#94558D",
     "selfParameter.declaration:python": "#94558D",
