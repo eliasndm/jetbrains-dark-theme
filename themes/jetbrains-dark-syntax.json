@@ -644,16 +644,26 @@
         "foreground": "#CF8E6D"
       }
     },
-    // {
-    //   "name": "[JS] String Interpolation",
-    //   "scope": [
-    //     "punctuation.definition.template-expression.begin",
-    //     "punctuation.definition.template-expression.end"
-    //   ],
-    //   "settings": {
-    //     "foreground": "#BCBEC4"
-    //   }
-    // },
+    {
+      "name": "[JS] String Interpolation",
+      "scope": [
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end"
+      ],
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
+    {
+      "name": "[JS] String Template",
+      "scope": [
+        "string.template.js",
+        "string.template.ts",
+      ],
+      "settings": {
+        "foreground": "#6AAB73"
+      }
+    },
     {
       "name": "[JS] Regex",
       "scope": [
