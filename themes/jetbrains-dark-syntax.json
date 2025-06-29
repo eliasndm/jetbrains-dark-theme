@@ -1443,6 +1443,7 @@
     // Common
     "comment.documentation": "#5F826B",
     // Javascript
+    "property": "#C77DBB",
     "method.static:javascript": {
       "foreground": "#57AAF7",
       "fontStyle": "italic"
@@ -1483,6 +1484,7 @@
     "function.builtin": "#8888C6",
     "function.decorator": "#B3AE60",
     "keyword.overridden:python": "#CF8E6D",
+    "property:python": "#BCBEC4",
     "property.builtin": "#B200B6",
     "magicFunction": "#B200B6",
     "magicFunction.declaration": "#B200B6",
@@ -1503,7 +1505,6 @@
       "foreground": "#C77DBB",
       "fontStyle": "italic"
     },
-    "property:rust": "#C77DBB",
     "property.declaration:rust": "#C77DBB",
     "derive": "#BCBEC4",
     "function.static.defaultLibrary.associated.library:rust": {
