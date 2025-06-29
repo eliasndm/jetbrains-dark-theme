@@ -1480,6 +1480,7 @@
     "selfParameter.declaration:python": "#94558D",
     "clsParameter:python": "#94558D",
     "clsParameter.declaration:python": "#94558D",
+    "variable.builtin:python": "#B200B6",
     "variable.builtin.callable": "#8888C6",
     "function.builtin": "#8888C6",
     "function.decorator": "#B3AE60",
