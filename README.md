@@ -15,6 +15,33 @@ A Visual Studio Code Theme based on the JetBrains IDE dark theme. This theme bri
     <i>and many more ...</i>
 </p>
 
+## Impressions
+This theme is available in two versions:
+* **Faithful**: Closely replicates the original theme.
+* **Vibrant**: Introduces subtle enhancements to improve visibility and highlight specific syntax elements.
+
+<table align="center" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+  <tr>
+    <td align="center">
+      <sub>Typescript (Faithful)</sub><br>
+      <img src="https://raw.githubusercontent.com/eliasndm/jetbrains-dark-theme/main/images/demo_ts_faithful.png" width="100%">
+    </td>
+    <td align="center">
+      <sub>Typescript (Vibrant)</sub><br>
+      <img src="https://raw.githubusercontent.com/eliasndm/jetbrains-dark-theme/main/images/demo_ts_vibrant.png" width="100%">
+    </td>
+  </tr>
+    <td align="center">
+      <sub>Python (Faithful)</sub><br>
+      <img src="https://raw.githubusercontent.com/eliasndm/jetbrains-dark-theme/main/images/demo_python_faithful.png" width="100%">
+    </td>
+    <td align="center">
+      <sub>Python (Vibrant)</sub><br>
+      <img src="https://raw.githubusercontent.com/eliasndm/jetbrains-dark-theme/main/images/demo_python_vibrant.png" width="100%">
+    </td>
+  </tr>
+</table>
+
 ## Installation
 
 **Method 1**  
