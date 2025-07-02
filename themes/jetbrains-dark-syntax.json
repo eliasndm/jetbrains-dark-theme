@@ -458,7 +458,9 @@
       "name": "[CSS] Propery Value & Units & Color Name",
       "scope": [
         "constant.character.escape.scss",
-        "keyword.other.unit",
+        "source.css keyword.other.unit",
+        "source.scss keyword.other.unit",
+        "source.less keyword.other.unit",
         "keyword.operator.gradient",
         "source.css support.constant",
         "source.scss support.constant"
@@ -588,6 +590,7 @@
         "keyword.operator.expression.of",
         "keyword.operator.expression.delete.js",
         "keyword.operator.expression.delete.ts",
+        "keyword.operator.expression.instanceof",
         "variable.language.this"
       ],
       "settings": {
@@ -632,29 +635,61 @@
     //     "foreground": "#1DB8AB"
     //   }
     // },
-    // {
-    //   "name": "[Typescript] Super Keyword",
-    //   "scope": [
-    //     "variable.language.super",
-    //   ],
-    //   "settings": {
-    //     "foreground": "#CF8E6D"
-    //   }
-    // },
-    // {
-    //   "name": "[JS] String Interpolation",
-    //   "scope": [
-    //     "punctuation.definition.template-expression.begin",
-    //     "punctuation.definition.template-expression.end"
-    //   ],
-    //   "settings": {
-    //     "foreground": "#BCBEC4"
-    //   }
-    // },
+    {
+      "name": "[typescript, javascript] property",
+      "scope": [
+        "variable.other.object.property.js",
+        "variable.other.object.property.ts",
+        "variable.other.property.js",
+        "variable.other.property.ts"
+      ],
+      "settings": {
+        "foreground": "#C77DBB"
+      }
+    },
+    {
+      "name": "[typescript, javascript] Super Keyword",
+      "scope": [
+        "variable.language.super.js",
+        "variable.language.super.ts",
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+    {
+      "name": "[JS] String Interpolation",
+      "scope": [
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end",
+        "string.template variable",
+        "string.template meta.brace",
+        "string.template punctuation.accessor",
+        "string.template support.variable"
+      ],
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
+    {
+      "name": "[JS] String Template",
+      "scope": [
+        "string.template.js",
+        "string.template.ts",
+      ],
+      "settings": {
+        "foreground": "#6AAB73"
+      }
+    },
     {
       "name": "[JS] Regex",
       "scope": [
         "string.regexp.ts punctuation.definition.string.begin.ts",
+        "string.regexp.js punctuation.definition.string.begin.js",
+        "string.regexp.js punctuation.definition.string.end.js",
+        "string.regexp.ts punctuation.definition.string.end.ts",
+        "string.regexp.js",
+        "string.regexp.ts"
       ],
       "settings": {
         "foreground": "#42C3D4"
@@ -667,7 +702,7 @@
         "support.class.component.tsx",
       ],
       "settings": {
-        "foreground": "#9C9CFF"
+        "foreground": "#16BAAC"
       }
     },
     {
@@ -681,15 +716,25 @@
     },
     // MARK: Vue
     {
-      "name": "[Vue] Directives",
+      "name": "[Vue] Special Tags",
       "scope": [
-        "meta.attribute.directive.vue entity.other.attribute-name.html.vue",
-        "meta.attribute.directive.vue punctuation.attribute-shorthand.event.html.vue",
-        "meta.attribute.directive.vue punctuation.attribute-shorthand.bind.html.vue",
-        "punctuation.attribute-shorthand.slot.html.vue"
+        "entity.name.tag.style.html.vue",
+        "entity.name.tag.script.html.vue",
+        "entity.name.tag.template.html.vue",
+        "meta.tag.structure.slot.start.html entity.name.tag.html",
+        "meta.tag.structure.slot.end.html entity.name.tag.html"
       ],
       "settings": {
-        "foreground": "#CF8E6D"
+        "foreground": "#2FBAA3"
+      }
+    },
+    {
+      "name": "[Vue] template.tag.nested.fix",
+      "scope": [
+        "text.html.derivative entity.name.tag.template.html.vue"
+      ],
+      "settings": {
+        "foreground": "#D5B778"
       }
     },
     // #endregion
@@ -725,15 +770,6 @@
         "foreground": "#8888C6"
       }
     },
-    // {
-    //   "name": "[Python] Attribute Caps Enum & Constant",
-    //   "scope": [
-    //     "constant.other.caps.python",
-    //   ],
-    //   "settings": {
-    //     "foreground": "#C77DBB"
-    //   }
-    // },
     {
       "name": "[Python] Enum Member",
       "scope": [
@@ -750,6 +786,15 @@
       ],
       "settings": {
         "foreground": "#2AACB8"
+      }
+    },
+    {
+      "name": "[Python] storage.type.string",
+      "scope": [
+        "storage.type.string.python",
+      ],
+      "settings": {
+        "foreground": "#6AAB73"
       }
     },
     {
@@ -835,7 +880,6 @@
     {
       "name": "[C] Control Directive define",
       "scope": [
-        // "keyword.control.directive.define.c",
         "source.c keyword.control.directive",
         "source.cpp keyword.control.directive",
         "punctuation.definition.directive.c",
@@ -843,6 +887,27 @@
       ],
       "settings": {
         "foreground": "#B3AE60"
+      }
+    },
+    {
+      "name": "[C] storage.type.number",
+      "scope": [
+        "string.quoted.other.lt-gt.include.c",
+        "string.quoted.other.lt-gt.include.cpp"
+      ],
+      "settings": {
+        "foreground": "#6AAB73"
+      }
+    },
+    {
+      "name": "[C] storage.type.number",
+      "scope": [
+        "keyword.other.unit.binary.c",
+        "keyword.other.unit.octal.c",
+        "keyword.other.unit.hexadecimal.c",
+      ],
+      "settings": {
+        "foreground": "#2AACB8"
       }
     },
     {
@@ -967,19 +1032,19 @@
         "foreground": "#20999D"
       }
     },
-    // {
-    //   "name": "[Rust] Type Parameter",
-    //   "scope": [
-    //     "entity.name.type.rust",
-    //   ],
-    //   "settings": {
-    //     "foreground": "#16BAAC"
-    //   }
-    // },
     {
       "name": "[Rust] Self Keyword",
       "scope": [
         "variable.language.self",
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+    {
+      "name": "[Rust] Keyword questionmark",
+      "scope": [
+        "keyword.operator.question.rust"
       ],
       "settings": {
         "foreground": "#CF8E6D"
@@ -1203,25 +1268,32 @@
       }
     },
     //#endregion
-    //#region MARK: Regex
-    // {
-    //   "name": "[Regex] Regex Character Class",
-    //   "scope": [
-    //     "constant.other.character-class.regexp",
-    //   ],
-    //   "settings": {
-    //     "foreground": "#B2AE60"
-    //   }
-    // },
-    // {
-    //   "name": "[Regex] Regex Quantifier",
-    //   "scope": [
-    //     "keyword.operator.quantifier.regexp",
-    //   ],
-    //   "settings": {
-    //     "foreground": "#2AACB8"
-    //   }
-    // },
+    // #region MARK: Tex | Latex
+    {
+      "name": "[Tex] Section",
+      "scope": ["support.function.section"],
+      "settings": {
+        "foreground": "#94558D",
+      }
+    },
+    {
+      "name": "[Tex] Environment Parameter",
+      "scope": ["variable.parameter.function.latex"],
+      "settings": {
+        "foreground": "#B3AE60",
+      }
+    },
+    {
+      "name": "[Tex] Math Environment",
+      "scope": [
+        "text.tex support.class.math",
+        "text.tex support.class.math punctuation.definition.string.end",
+        "text.tex support.class.math punctuation.definition.string.begin",
+      ],
+      "settings": {
+        "foreground": "#16BAAC",
+      }
+    },
     //#endregion
     // #region MARK: Markdown
     {
@@ -1368,11 +1440,21 @@
   // MARK: Semantic Highlighting
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    // // Common
+    // Common
     "comment.documentation": "#5F826B",
     // Javascript
+    "property": "#C77DBB",
     "method.static:javascript": {
       "foreground": "#57AAF7",
+      "fontStyle": "italic"
+    },
+    "variable.local:javascript": "#A9B7C6",
+    "variable.defaultLibrary:javascript": {
+      "foreground": "#C77DBB",
+      "fontStyle": "italic"
+    },
+    "class.defaultLibrary:javascript": {
+      "foreground": "#C77DBB",
       "fontStyle": "italic"
     },
     // Typescript
@@ -1380,29 +1462,40 @@
       "foreground": "#57AAF7",
       "fontStyle": "italic"
     },
+    "variable.local:typescript": "#A9B7C6",
+    "variable.defaultLibrary:typescript": {
+      "foreground": "#C77DBB",
+      "fontStyle": "italic"
+    },
+    "class.defaultLibrary:typescript": {
+      "foreground": "#C77DBB",
+      "fontStyle": "italic"
+    },
+    "enumMember:typescript": {
+      "foreground": "#C77DBB",
+      "italic": true
+    },
     // Python
     "selfParameter:python": "#94558D",
     "selfParameter.declaration:python": "#94558D",
     "clsParameter:python": "#94558D",
     "clsParameter.declaration:python": "#94558D",
+    "variable.builtin:python": "#B200B6",
     "variable.builtin.callable": "#8888C6",
     "function.builtin": "#8888C6",
     "function.decorator": "#B3AE60",
     "keyword.overridden:python": "#CF8E6D",
-    // "property.declaration": "#56A8F5",
-    // "parameter:python": "#AA4926",
-    // "parameter.declaration": "#BCBEC4",
+    "property:python": "#BCBEC4",
     "property.builtin": "#B200B6",
     "magicFunction": "#B200B6",
     "magicFunction.declaration": "#B200B6",
     "class": "#BCBEC4",
-    // "class.typeHint": "#16BAAC",
-    // "class.typeHint": "#1DB8AB",
     "class.builtin": "#8888C6",
     "class.typeHint.builtin" : "#8888C6",
     "class.decorator.builtin": "#B3AE60",
     // Rust
     "function.declaration": "#56A8F5",
+    "operator.controlFlow": "#CF8E6D",
     "struct": "#BCBEC4",
     "decorator": "#B3AE60",
     "variable.mutable": {"fontStyle": "underline"},
@@ -1413,7 +1506,6 @@
       "foreground": "#C77DBB",
       "fontStyle": "italic"
     },
-    "property:rust": "#C77DBB",
     "property.declaration:rust": "#C77DBB",
     "derive": "#BCBEC4",
     "function.static.defaultLibrary.associated.library:rust": {
@@ -1434,6 +1526,6 @@
     "memberOperatorOverload": "#5F8CBA",
     "type:cpp": "#B5B6E3",
     // Vue
-    "class:vue": "#9C9CFF"
+    "class:vue": "#2FBAA3"
   }
 }

@@ -2,10 +2,11 @@
   "name": "jetbrains-dark",
   "displayName": "JetBrains Dark (New) Theme",
   "description": "A faithful port of the JetBrains Dark Theme",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "publisher": "eliasnd",
   "license": "MIT",
   "readme": "README.md",
+  "icon": "./icon.png",
   "scripts": {
     "build": "./scripts/build.py",
     "package": "cd dist/jetbrains-dark && vsce package",
@@ -45,8 +46,14 @@
         "path": "./themes/jetbrains-dark.json"
       },
       {
+        "id": "JetBrains Vibrant",
+        "label": "JetBrains Dark Vibrant",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jetbrains-dark-vibrant.json"
+      },
+      {
         "id": "JetBrains + VSCode Dark Modern",
-        "label": "JetBrains Dark (VSCode Modern)",
+        "label": "JetBrains Dark VSCode Modern",
         "uiTheme": "vs-dark",
         "path": "./themes/jetbrains-dark-vscode.json"
       }
