@@ -9,7 +9,7 @@ A Visual Studio Code Theme based on the JetBrains IDE dark theme. This theme bri
 
 <p align="center">
     <i>Javascript · Typescript · React · Vue</i><br>
-    <i>Python · Rust · PHP · C/C++ · R</i><br>
+    <i>Python · Rust · Go · PHP · C/C++ · R</i><br>
     <i>HTML · XML · CSS · SCSS · LESS</i><br>
     <i>JSON · YAML · Markdown</i><br>
     <i>and many more ...</i>

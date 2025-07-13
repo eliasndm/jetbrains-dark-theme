@@ -998,6 +998,44 @@
         "foreground": "#2AACB8"
       }
     },
+    // #region MARK: GO
+    {
+      "name": "[Go] Package",
+      "scope": ["entity.name.type.package.go"],
+      "settings": {
+        "foreground": "#AFBF7E",
+      }
+    },
+    {
+      "name": "[Go] Type",
+      "scope": ["entity.name.type.go"],
+      "settings": {
+        "foreground": "#6FAFBD",
+      }
+    },
+    {
+      "name": "[Go] Builtin Type",
+      "scope": ["storage.type.numeric.go"],
+      "settings": {
+        "foreground": "#CC7832",
+      }
+    },
+    {
+      "name": "[Go] Builtin Function",
+      "scope": ["entity.name.function.support.builtin.go"],
+      "settings": {
+        "foreground": "#CC7832",
+      }
+    },
+    {
+      "name": "[Go] Constant",
+      "scope": ["variable.other.constant.go"],
+      "settings": {
+        "foreground": "#C77DBB",
+        "fontStyle": "italic"
+      }
+    },
+    // #endregion
     // #region MARK: R
     {
       "name": "[R] Documentation",
@@ -1526,6 +1564,17 @@
     "memberOperatorOverload": "#5F8CBA",
     "type:cpp": "#B5B6E3",
     // Vue
-    "class:vue": "#2FBAA3"
+    "class:vue": "#2FBAA3",
+    // Go
+    "namespace:go": "#AFBF7E",
+    "type.definition:go": "#BCBEC4",
+    "variable.definition.readonly:go": {
+      "foreground": "#C77DBB",
+      "fontStyle": "italic"
+    },
+    "variable.readonly.defaultLibrary:go": "#CC7832",
+    "function.definition.signature:go": "#56A8F5",
+    "function.signature:go": "#B09D79",
+    "method.signature:go": "#B09D79"
   }
 }
