@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.0
+
+### Added
+- Added syntax highlighting for Go
+
+### Changed
+- Changed Marketplace Icon
+
 ## 0.3.0
 
 ### Added
