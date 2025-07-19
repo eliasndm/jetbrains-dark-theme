@@ -1197,6 +1197,54 @@
       }
     },
     // #endregion
+    //#region MARK: Powershell
+    {
+      "name": "[Powershell] support.variable.automatic",
+      "scope": [
+        "support.variable.automatic.powershell"
+      ],
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
+    {
+      "name": "[Powershell] member",
+      "scope": [
+        "source.powershellvariable.other.member"
+      ],
+      "settings": {
+        "foreground": "#56A8F5"
+      }
+    },
+    {
+      "name": "[Powershell] simple.subexpression.punctuation",
+      "scope": [
+        "meta.group.simple.subexpression.powershellpunctuation.section.group"
+      ],
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
+    {
+      "name": "[Powershell] meta.embedded",
+      "scope": [
+        "source.powershellmeta.embedded"
+      ],
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
+    {
+      "name": "[Powershell] complex.subexpression.punctuation",
+      "scope": [
+        "punctuation.section.embedded",
+        "meta.group.complex.subexpression.powershell>punctuation.section.group"
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+    // #endregion
     //#region MARK: PHP
     {
       "name": "[PHP] Documentation Tag",
