@@ -1197,6 +1197,54 @@
       }
     },
     // #endregion
+    //#region MARK: Powershell
+    {
+      "name": "[Powershell] support.variable.automatic",
+      "scope": [
+        "support.variable.automatic.powershell"
+      ],
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
+    {
+      "name": "[Powershell] member",
+      "scope": [
+        "source.powershellvariable.other.member"
+      ],
+      "settings": {
+        "foreground": "#56A8F5"
+      }
+    },
+    {
+      "name": "[Powershell] simple.subexpression.punctuation",
+      "scope": [
+        "meta.group.simple.subexpression.powershellpunctuation.section.group"
+      ],
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
+    {
+      "name": "[Powershell] meta.embedded",
+      "scope": [
+        "source.powershellmeta.embedded"
+      ],
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
+    {
+      "name": "[Powershell] complex.subexpression.punctuation",
+      "scope": [
+        "punctuation.section.embedded",
+        "meta.group.complex.subexpression.powershell>punctuation.section.group"
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+    // #endregion
     //#region MARK: PHP
     {
       "name": "[PHP] Documentation Tag",
@@ -1306,6 +1354,143 @@
       }
     },
     //#endregion
+    // #region MARK: Ruby
+    {
+      "name": "[Ruby] keyword.special-method",
+      "scope": ["keyword.other.special-method.ruby"],
+      "settings": {
+        "foreground": "#FC9800",
+      }
+    },
+    {
+      "name": "[Ruby] variable",
+      "scope": [
+        "variable.ruby",
+        "variable.other.readwrite.ruby"
+      ],
+      "settings": {
+        "foreground": "#D4B01D",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[Ruby] variable.global",
+      "scope": [
+        "variable.other.readwrite.global.ruby",
+        "variable.other.readwrite.global.pre-defined.ruby"
+      ],
+      "settings": {
+        "foreground": "#D0D0FF",
+      }
+    },
+    {
+      "name": "[Ruby] entity.name.function",
+      "scope": "entity.name.function.ruby",
+      "settings": {
+        "foreground": "#FFC66D",
+      }
+    },
+    {
+      "name": "[Ruby] entity.name.type.module",
+      "scope": "entity.name.type.module.ruby",
+      "settings": {
+        "foreground": "#FFC66D",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[Ruby] entity.name.type.module",
+      "scope": "variable.other.constant.ruby",
+      "settings": {
+        "foreground": "#FFC66D",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[Ruby] string.interpolation",
+      "scope": "source.ruby punctuation.section.embedded",
+      "settings": {
+        "foreground": "#BCBEC4",
+      }
+    },
+    {
+      "name": "[Ruby] support.function.kernel",
+      "scope": "support.function.kernel.ruby",
+      "settings": {
+        "foreground": "#BCBEC4",
+      }
+    },
+    {
+      "name": "[Ruby] variable.instance",
+      "scope": [
+        "variable.other.readwrite.instance.ruby",
+        "variable.other.readwrite.class.ruby"
+      ],
+      "settings": {
+        "foreground": "#C77DBB",
+      }
+    },
+    {
+      "name": "[Ruby] function.parameter",
+      "scope": [
+        "variable.parameter.function.ruby",
+        "variable.other.block.ruby"
+      ],
+      "settings": {
+        "foreground": "#D4B01D",
+      }
+    },
+    {
+      "name": "[Ruby] function.parameter",
+      "scope": [
+        "constant.language.symbol.ruby",
+        "constant.language.symbol.hashkey.ruby"
+      ],
+      "settings": {
+        "foreground": "#89A6AF",
+      }
+    },
+    {
+      "name": "[Ruby] numeric",
+      "scope": [
+        "constant.numeric.ruby",
+      ],
+      "settings": {
+        "foreground": "#74A4C8",
+      }
+    },
+    {
+      "name": "[Ruby] comment",
+      "scope": [
+        "comment.line.number-sign.ruby",
+        "punctuation.definition.comment.ruby"
+      ],
+      "settings": {
+        "foreground": "#808080",
+      }
+    },
+    {
+      "name": "[Ruby] documentation.tag.yard",
+      "scope": [
+        "comment.line.keyword.yard.ruby",
+        "comment.line.keyword.punctuation.yard.ruby"
+      ],
+      "settings": {
+        "foreground": "#9a9a9a",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[Ruby] documentation.tag.yard",
+      "scope": [
+        "comment.line.parameter.yard.ruby",
+        "comment.line.type.yard.ruby",
+      ],
+      "settings": {
+        "foreground": "#9a9a9a",
+      }
+    },
+    //#endregion
     // #region MARK: Tex | Latex
     {
       "name": "[Tex] Section",
@@ -1350,7 +1535,8 @@
         "punctuation.definition.heading.markdown"
       ],
       "settings": {
-        "foreground": "#C77DBB"
+        "foreground": "#C77DBB",
+        "fontStyle": "italic"
       }
     },
     {
@@ -1473,6 +1659,26 @@
         "foreground": "#CF8E6D"
       }
     },
+    {
+      "name": "[Markdown] code.fence.punctuation",
+      "scope": [
+        "markup.inline.raw.string.markdown punctuation.definition.raw.markdown",
+        "markup.fenced_code.block.markdown punctuation.definition.markdown"
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+    {
+      "name": "[Markdown] fenced_code.block.language",
+      "scope": [
+        "fenced_code.block.language.markdown",
+      ],
+      "settings": {
+        "foreground": "#C77DBB",
+        "fontStyle": "italic"
+      }
+    },
     // #endregion
   ],
   // MARK: Semantic Highlighting
@@ -1575,6 +1781,15 @@
     "variable.readonly.defaultLibrary:go": "#CC7832",
     "function.definition.signature:go": "#56A8F5",
     "function.signature:go": "#B09D79",
-    "method.signature:go": "#B09D79"
+    "method.signature:go": "#B09D79",
+    // Ruby
+    "parameter:ruby": {
+      "foreground": "#D4B01D",
+      "fontStyle": "italic"
+    },
+    "variable:ruby": {
+      "foreground": "#D4B01D",
+      "fontStyle": "italic"
+    }
   }
 }

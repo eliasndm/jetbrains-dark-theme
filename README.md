@@ -45,16 +45,24 @@ This theme is available in two versions:
 ## Installation
 
 **Method 1**  
-Install from the [VSCode Marketplace →](https://marketplace.visualstudio.com/items?itemName=EliasND.jetbrains-dark)
+Install from the [VSCode Marketplace →](https://marketplace.visualstudio.com/items?itemName=EliasND.jetbrains-dark)
 
 **Method 2**  
 1. Clone the repository
-2. install the theme with the VSCode Command `Developer: Install Extension from location`
+2. Install the theme with the VSCode Command `Developer: Install Extension from location`
 
-Choose Method 2 if you want to customize the theme
+## Recommended Settings
+For the best experience, install the official [JetBrains Mono](https://www.jetbrains.com/lp/mono/) font. Then, apply the following editor configuration in your settings.json:
+
+```json
+{
+  "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 13
+}
+```
 
 ## Issues
-If you find something that is not styled correctly or inconsistently colored open an issue on the Projects [Issues Page](https://github.com/eliasndm/jetbrains-dark-theme/issues)
+If you find something that is not styled correctly or inconsistently colored open an issue on the Projects [Issues Page →](https://github.com/eliasndm/jetbrains-dark-theme/issues)
 
 ## Disclaimer
 

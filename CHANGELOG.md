@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.5.0
+
+### Added
+- Added syntax highlighting for Ruby code
+- Added syntax highlighting for Powershell code
+
+### Fixed
+- Fixed color of code fence punctuation in markdown
+- Fixed color of code fence language specifier
+
+### Changed
+- Changed README.md
+
 ## 0.4.0
 
 ### Added
