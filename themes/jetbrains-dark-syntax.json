@@ -1398,7 +1398,8 @@
         "punctuation.definition.heading.markdown"
       ],
       "settings": {
-        "foreground": "#C77DBB"
+        "foreground": "#C77DBB",
+        "fontStyle": "italic"
       }
     },
     {
@@ -1519,6 +1520,26 @@
       ],
       "settings": {
         "foreground": "#CF8E6D"
+      }
+    },
+    {
+      "name": "[Markdown] code.fence.punctuation",
+      "scope": [
+        "markup.inline.raw.string.markdown punctuation.definition.raw.markdown",
+        "markup.fenced_code.block.markdown punctuation.definition.markdown"
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+    {
+      "name": "[Markdown] fenced_code.block.language",
+      "scope": [
+        "fenced_code.block.language.markdown",
+      ],
+      "settings": {
+        "foreground": "#C77DBB",
+        "fontStyle": "italic"
       }
     },
     // #endregion
