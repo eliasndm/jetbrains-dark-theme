@@ -1491,6 +1491,43 @@
       }
     },
     //#endregion
+    // #region MARK: Java
+    {
+        "name": "[Java] puncutation.separator.java",
+        "scope": "punctuation.separator.java",
+        "settings": {
+            "foreground": "#BCBEC4"
+        }
+    },
+    {
+        "name": "[Java] variable.language.wildcard.java",
+        "scope": "variable.language.wildcard.java",
+        "settings": {
+            "foreground": "#BCBEC4"
+        }
+    },
+    {
+        "name": "[Java] puctuation.definition.annotation",
+        "scope": "punctuation.definition.annotation.java",
+        "settings": {
+            "foreground": "#B3AE60"
+        }
+    },
+    {
+        "name": "[Java] storage.type.function.arrow.java",
+        "scope": "storage.type.function.arrow.java",
+        "settings": {
+            "foreground": "#BCBEC4"
+        }
+    },
+    {
+        "name": "[Java] comment.documentation.variable",
+        "scope": "comment.block.javadoc.java variable.parameter.java",
+        "settings": {
+            "foreground": "#ABADB3"
+        }
+    },
+    //#endregion
     // #region MARK: Tex | Latex
     {
       "name": "[Tex] Section",
@@ -1790,6 +1827,31 @@
     "variable:ruby": {
       "foreground": "#D4B01D",
       "fontStyle": "italic"
-    }
+    },
+    // Java
+    "namespace:java": "#BCBEC4",
+    "enumMember:java": {
+        "foreground": "#C77DBB",
+        "fontStyle": "italic"
+    },
+    "annotation:java": "#B3AE60",
+    "annotationMember": "#BCBEC4",
+    "property:java": {
+        "foreground": "#C77DBB",
+    },
+    "property.static:java": {
+        "foreground": "#C77DBB",
+        "fontStyle": "italic"
+    },
+    "typeParameter": "#16BAAC",
+    "method:java": "#BCBEC4",
+    "method.static:java": {
+        "foreground": "#BCBEC4",
+        "fontStyle": "italic"
+    },
+    "method.public.declaration:java": "#56A8F5",
+    "method.static.declaration:java": "#56A8F5",
+    "interface:java": "#BCBEC4",
+    "class.declaration.constructor:java": "#56A8F5"
   }
 }
