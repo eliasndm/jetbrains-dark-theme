@@ -2,7 +2,7 @@
   "name": "jetbrains-dark",
   "displayName": "JetBrains Dark (New) Theme",
   "description": "A faithful port of the JetBrains Dark Theme",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "publisher": "eliasnd",
   "license": "MIT",
   "readme": "README.md",
@@ -12,7 +12,8 @@
     "prepubchecks": "node ./scripts/prepublish.js",
     "package": "cd dist/jetbrains-dark && vsce package",
     "prepublishOnly": "npm run build && npm run prepubchecks && npm run package",
-    "publish": "cd dist/jetbrains-dark && vsce publish"
+    "runpublish": "cd dist/jetbrains-dark && vsce publish",
+    "pub": "npm run prepublishOnly && npm run runpublish"
   },
   "repository": {
     "type": "git",

@@ -1,16 +1,21 @@
 # Changelog
 
+## 0.6.2
+
+### Fixed
+- Fixed error in publish script initiation.
+
 ## 0.6.1
 
 ### Added
-- Added prepublish script
-- Added new build script
+- Added prepublish script.
+- Added new build script.
 
 ### Fixed
-- Removed some trailing commas in the theme files
+- Removed some trailing commas in the theme files.
 
 ### Changed
-- Changed marketplace icon to a more vibrant version
+- Changed marketplace icon to a more vibrant version.
 
 ## 0.6.0
 
