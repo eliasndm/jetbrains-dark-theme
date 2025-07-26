@@ -1,5 +1,6 @@
 /dist/
 /dev/
+/node_modules/
 **/__pycache__/
 .vscodeignore
 /.vscode/
