@@ -1,11 +1,23 @@
 # Changelog
 
+## 0.6.1
+
+### Added
+- Added prepublish script
+- Added new build script
+
+### Fixed
+- Removed some trailing commas in the theme files
+
+### Changed
+- Changed marketplace icon to a more vibrant version
+
 ## 0.6.0
 
 ### Added
 - Added syntax highlighting rules for Java.
 
-### Fix
+### Fixed
 - Fixed line numbers in gutter being too bright for inactive lines.
 
 ### Changed
