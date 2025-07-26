@@ -74,7 +74,7 @@
     {
       "name": "[Common] String Interpolation Variable",
       "scope": [
-        "variable.other.readwrite",
+        "variable.other.readwrite"
       ],
       "settings": {
         "foreground": "#BCBEC4"
@@ -83,7 +83,7 @@
     {
       "name": "[Common] Keyword",
       "scope": [
-        "keyword",
+        "keyword"
       ],
       "settings": {
         "foreground": "#CF8E6D"
@@ -1453,7 +1453,7 @@
     {
       "name": "[Ruby] numeric",
       "scope": [
-        "constant.numeric.ruby",
+        "constant.numeric.ruby"
       ],
       "settings": {
         "foreground": "#74A4C8",
@@ -1484,7 +1484,7 @@
       "name": "[Ruby] documentation.tag.yard",
       "scope": [
         "comment.line.parameter.yard.ruby",
-        "comment.line.type.yard.ruby",
+        "comment.line.type.yard.ruby"
       ],
       "settings": {
         "foreground": "#9a9a9a",
@@ -1548,7 +1548,7 @@
       "scope": [
         "text.tex support.class.math",
         "text.tex support.class.math punctuation.definition.string.end",
-        "text.tex support.class.math punctuation.definition.string.begin",
+        "text.tex support.class.math punctuation.definition.string.begin"
       ],
       "settings": {
         "foreground": "#16BAAC",
@@ -1656,7 +1656,7 @@
       "scope": [
         "string.other.link.description.markdown",
         "punctuation.definition.link.description.begin.markdown",
-        "punctuation.definition.link.description.end.markdown",
+        "punctuation.definition.link.description.end.markdown"
       ],
       "settings": {
         "foreground": "#56A8F5"
@@ -1829,13 +1829,15 @@
       "fontStyle": "italic"
     },
     // Java
+    "interface:java": "#BCBEC4",
     "namespace:java": "#BCBEC4",
+    "typeParameter:java": "#16BAAC",
     "enumMember:java": {
         "foreground": "#C77DBB",
         "fontStyle": "italic"
     },
     "annotation:java": "#B3AE60",
-    "annotationMember": "#BCBEC4",
+    "annotationMember:java": "#BCBEC4",
     "property:java": {
         "foreground": "#C77DBB",
     },
@@ -1843,7 +1845,6 @@
         "foreground": "#C77DBB",
         "fontStyle": "italic"
     },
-    "typeParameter": "#16BAAC",
     "method:java": "#BCBEC4",
     "method.static:java": {
         "foreground": "#BCBEC4",
@@ -1851,7 +1852,6 @@
     },
     "method.public.declaration:java": "#56A8F5",
     "method.static.declaration:java": "#56A8F5",
-    "interface:java": "#BCBEC4",
     "class.declaration.constructor:java": "#56A8F5"
   }
 }

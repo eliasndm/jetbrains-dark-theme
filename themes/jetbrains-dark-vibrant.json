@@ -6,7 +6,7 @@
     {
       "scope": ["entity.name.type.class"],
       "settings": {
-        "foreground": "#16BAAC",
+        "foreground": "#16BAAC"
       }
     },
     {
