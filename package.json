@@ -2,15 +2,18 @@
   "name": "jetbrains-dark",
   "displayName": "JetBrains Dark (New) Theme",
   "description": "A faithful port of the JetBrains Dark Theme",
-  "version": "0.6.0",
+  "version": "0.6.2",
   "publisher": "eliasnd",
   "license": "MIT",
   "readme": "README.md",
   "icon": "./icon.png",
   "scripts": {
-    "build": "./scripts/build.py",
+    "build": "node ./scripts/build.js",
+    "prepubchecks": "node ./scripts/prepublish.js",
     "package": "cd dist/jetbrains-dark && vsce package",
-    "publish": "cd dist/jetbrains-dark && vsce publish"
+    "prepublishOnly": "npm run build && npm run prepubchecks && npm run package",
+    "runpublish": "cd dist/jetbrains-dark && vsce publish",
+    "pub": "npm run prepublishOnly && npm run runpublish"
   },
   "repository": {
     "type": "git",
@@ -23,17 +26,17 @@
     "vscode": "^1.50.0"
   },
   "keywords": [
-		"dark theme",
-		"jetbrains",
-		"pycharm",
-		"webstorm",
-		"intellij",
-		"pycharm theme",
-		"pale colors",
-		"webstorm theme",
-		"Jetbrains dark theme",
-		"Jetbrains new dark"
-	],
+    "dark theme",
+    "jetbrains",
+    "pycharm",
+    "webstorm",
+    "intellij",
+    "pycharm theme",
+    "pale colors",
+    "webstorm theme",
+    "Jetbrains dark theme",
+    "Jetbrains new dark"
+  ],
   "categories": [
     "Themes"
   ],
@@ -58,5 +61,8 @@
         "path": "./themes/jetbrains-dark-vscode.json"
       }
     ]
+  },
+  "devDependencies": {
+    "jsonc-parser": "^3.3.1"
   }
 }
