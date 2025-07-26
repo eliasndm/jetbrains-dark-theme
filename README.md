@@ -1,6 +1,6 @@
 # JetBrains Dark Theme
 
-A Visual Studio Code Theme based on the JetBrains IDE dark theme. This theme brings the familiar look and feel of JetBrains' dark color palette.
+A Visual Studio Code Theme based on the JetBrains IDE dark theme. This theme brings the familiar look and feel of JetBrains' dark color palette, ideal for working in low-light environments without straining your eyes.
 
 ![screenshot](https://raw.githubusercontent.com/eliasndm/jetbrains-dark-theme/main/images/workbench_tsx.png)
 
@@ -57,7 +57,8 @@ For the best experience, install the official [JetBrains Mono](https://www.jetb
 ```json
 {
   "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 13
+  "editor.fontSize": 13,
+  "editor.lineHeight": 1.7
 }
 ```
 
@@ -65,5 +66,4 @@ For the best experience, install the official [JetBrains Mono](https://www.jetb
 If you find something that is not styled correctly or inconsistently colored open an issue on the Projects [Issues Page →](https://github.com/eliasndm/jetbrains-dark-theme/issues)
 
 ## Disclaimer
-
-Not affiliated with or endorsed by JetBrains s.r.o. All JetBrains trademarks and assets remain the property of JetBrains.
+Not affiliated with or endorsed by JetBrains s.r.o. All JetBrains trademarks and assets remain the property of JetBrains s.r.o.
