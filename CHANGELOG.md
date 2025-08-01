@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.3
+
+### Changed
+- Changed editor widgets background color.
+- Changed marketplace icon.
+
 ## 0.6.2
 
 ### Fixed
