@@ -1353,6 +1353,15 @@
         "foreground": "#CF8E6D",
       }
     },
+    {
+      "name": "[PHP] punctuation.section.embedded.questionmark",
+      "scope": [
+        "punctuation.section.embedded.end.php source.php",
+      ],
+      "settings": {
+        "foreground": "#CF8E6D",
+      }
+    },
     //#endregion
     // #region MARK: Ruby
     {
