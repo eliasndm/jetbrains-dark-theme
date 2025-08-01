@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.4
+
+### Fixed
+- Fixed color of question mark on php closing tag.
+- Fixed colored blocks in icon not being centered.
+
 ## 0.6.3
 
 ### Changed
