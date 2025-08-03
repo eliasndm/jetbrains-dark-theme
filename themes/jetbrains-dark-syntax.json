@@ -384,8 +384,8 @@
     {
       "name": "[HTML] Entity Name",
       "scope": [
-        "constant.character.entity.named",
-        "constant.character.entity.xml",
+        "text.html constant.character.entity",
+        "text.xml constant.character.entity.xml",
         "punctuation.definition.entity.html",
         "punctuation.definition.constant.xml"
       ],
