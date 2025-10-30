@@ -1196,6 +1196,15 @@
         "foreground": "#CF8E6D",
       }
     },
+    {
+      "name": "[Batch] Keywords",
+      "scope": [
+        "keyword.operator.logical.batchfile",
+      ],
+      "settings": {
+        "foreground": "#CF8E6D",
+      }
+    },
     // #endregion
     //#region MARK: Powershell
     {
