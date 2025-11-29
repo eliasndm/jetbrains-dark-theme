@@ -384,8 +384,8 @@
     {
       "name": "[HTML] Entity Name",
       "scope": [
-        "constant.character.entity.named",
-        "constant.character.entity.xml",
+        "text.html constant.character.entity",
+        "text.xml constant.character.entity.xml",
         "punctuation.definition.entity.html",
         "punctuation.definition.constant.xml"
       ],
@@ -743,8 +743,9 @@
       "name": "[Python] Docstring",
       "scope": [
         "string.quoted.docstring.multi",
-        "string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
-        "string.quoted.docstring.multi.python punctuation.definition.string.end.python",
+        "string.quoted.docstring.raw.multi.python",
+        "string.quoted.docstring punctuation.definition.string.begin.python",
+        "string.quoted.docstring punctuation.definition.string.end.python",
       ],
       "settings": {
         "foreground": "#5F826B",
@@ -1191,6 +1192,15 @@
         "meta.argument.shell keyword.operator.redirect.shell",
         "punctuation.definition.evaluation.backticks.shell",
         "punctuation.definition.variable.shell"
+      ],
+      "settings": {
+        "foreground": "#CF8E6D",
+      }
+    },
+    {
+      "name": "[Batch] Keywords",
+      "scope": [
+        "keyword.operator.logical.batchfile",
       ],
       "settings": {
         "foreground": "#CF8E6D",

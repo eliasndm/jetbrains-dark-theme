@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.6.5
+
+### Fixed
+- Fix special character color in html and xml
+- Fix color of logical operator in batchfiles
+- Fix color of raw multi docstring in python
+
 ## 0.6.4
 
 ### Fixed
