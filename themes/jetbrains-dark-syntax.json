@@ -753,6 +753,15 @@
       }
     },
     {
+      "name": "Python keyword codetag notation",
+      "scope": [
+        "keyword.codetag.notation.python",
+      ],
+      "settings": {
+        "foreground": "#8BB33D"
+      }
+    },
+    {
       "name": "Python Regex String",
       "scope": [
         "string.regexp.quoted.single.python",
