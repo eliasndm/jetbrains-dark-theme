@@ -1,0 +1,23 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "tokenColors": [
+    {
+      "name": "[React] Class Component",
+      "scope": [
+        "support.class.component.tsx",
+      ],
+      "settings": {
+        "foreground": "#16BAAC"
+      }
+    },
+    {
+      "name": "[React] Operator =",
+      "scope": [
+        "meta.tag.attributes.tsx keyword.operator.assignment.tsx",
+      ],
+      "settings": {
+        "foreground": "#6AAB73"
+      }
+    },
+  ]
+}

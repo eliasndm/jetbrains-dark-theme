@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.7.0
+
+### Changed
+- Build theme from individual files
+- Use pnpm instead of npm
+
+### Fixed
+
+- Fix color of sizeof operator in C.
+- Fix color of markdown math delimiters.
+- Fix color of void keyword in Typescript.
+- Fix color of multi quoted string in Python.
+
 ## 0.6.5
 
 ### Fixed

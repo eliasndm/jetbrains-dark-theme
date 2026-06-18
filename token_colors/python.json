@@ -1,0 +1,171 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "tokenColors": [
+    {
+      "name": "[Python] Docstring",
+      "scope": [
+        "string.quoted.docstring.multi",
+        "string.quoted.docstring.raw.multi.python",
+        "string.quoted.docstring punctuation.definition.string.begin.python",
+        "string.quoted.docstring punctuation.definition.string.end.python",
+      ],
+      "settings": {
+        "foreground": "#5F826B",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python keyword codetag notation",
+      "scope": [
+        "keyword.codetag.notation.python",
+      ],
+      "settings": {
+        "foreground": "#8BB33D"
+      }
+    },
+    {
+      "name": "Python Regex String",
+      "scope": [
+        "string.regexp.quoted.single.python",
+      ],
+      "settings": {
+        "foreground": "#6AAB73"
+      }
+    },
+    {
+      "name": "[Python] Builtin",
+      "scope": [
+        "support.type.python",
+        "support.function.builtin",
+      ],
+      "settings": {
+        "foreground": "#8888C6"
+      }
+    },
+    {
+      "name": "[Python] Enum Member",
+      "scope": [
+        "variable.other.enummember.python",
+      ],
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
+    {
+      "name": "[Python] Number Binary Hex Octal",
+      "scope": [
+        "storage.type.number.python",
+      ],
+      "settings": {
+        "foreground": "#2AACB8"
+      }
+    },
+    {
+      "name": "[Python] storage.type.string",
+      "scope": [
+        "storage.type.string.python",
+        "string.quoted.multi.python"
+      ],
+      "settings": {
+        "foreground": "#6AAB73"
+      }
+    },
+    {
+      "name": "[Python] String Binary",
+      "scope": [
+        "string.quoted.binary.single.python",
+        "string.quoted.binary.single.python storage.type.string",
+        "string.quoted.binary.single.python punctuation.definition.string.begin.python",
+        "string.quoted.binary.single.python punctuation.definition.string.end.python",
+      ],
+      "settings": {
+        "foreground": "#A5C261"
+      }
+    },
+    {
+      "name": "[Python] Decorator staticmethod classmethod",
+      "scope": [
+        "meta.function.decorator support.type.python",
+      ],
+      "settings": {
+        "foreground": "#B3AE60"
+      }
+    },
+    {
+      "name": "[Python] Keyword Operator Logical",
+      "scope": [
+        "keyword.operator.logical.python",
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+    {
+      "name": "[Python] Magic Functions",
+      "scope": [
+        "meta.function.python support.function.magic.python",
+        "support.function.magic.python"
+      ],
+      "settings": {
+        "foreground": "#B200B6"
+      }
+    },
+    {
+      "name": "[Python] Magic Attributes",
+      "scope": [
+        "support.variable.magic.python",
+      ],
+      "settings": {
+        "foreground": "#B200B6"
+      }
+    },
+    {
+      "name": "[Python] Self Keyword",
+      "scope": [
+        "variable.language.special.self.python",
+        "variable.parameter.function.language.special.self.python",
+        "variable.parameter.function.language.special.cls.python"
+      ],
+      "settings": {
+        "foreground": "#94558D"
+      }
+    },
+    {
+      "name": "[Python] String Interpolation fString",
+      "scope": [
+        "meta.fstring.python constant.character.format.placeholder.other.python",
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+    {
+      "name": "[Python] Function Arguments",
+      "scope": [
+        "variable.parameter.function-call.python",
+      ],
+      "settings": {
+        "foreground": "#AA4926"
+      }
+    }
+  ],
+  "semanticTokenColors": {
+    "selfParameter:python": "#94558D",
+    "selfParameter.declaration:python": "#94558D",
+    "clsParameter:python": "#94558D",
+    "clsParameter.declaration:python": "#94558D",
+    "variable.builtin:python": "#B200B6",
+    "variable.builtin.callable": "#8888C6",
+    "function.builtin": "#8888C6",
+    "function.decorator": "#B3AE60",
+    "keyword.overridden:python": "#CF8E6D",
+    "property:python": "#BCBEC4",
+    "property.builtin": "#B200B6",
+    "magicFunction": "#B200B6",
+    "magicFunction.declaration": "#B200B6",
+    "class": "#BCBEC4",
+    "class.builtin": "#8888C6",
+    "class.typeHint.builtin" : "#8888C6",
+    "class.decorator.builtin": "#B3AE60",
+  }
+}

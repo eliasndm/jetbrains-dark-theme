@@ -1,0 +1,216 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "tokenColors": [
+    {
+      "name": "[TS] Decorator",
+      "scope": [
+        "meta.decorator.js variable.other.readwrite.js",
+        "meta.decorator.ts variable.other.readwrite.ts"
+      ],
+      "settings": {
+        "foreground": "#B3AE60"
+      }
+    },
+    {
+      "name": "[TS] Builtin Type",
+      "scope": [
+        "support.type.builtin.ts",
+        "support.type.builtin.js",
+      ],
+      "settings": {
+        "foreground": "#8888C6"
+      }
+    },
+    {
+      "name": "[TS] Function Declaration Anonymous",
+      "scope": [
+        "variable.other.constant entity.name.function.js",
+      ],
+      "settings": {
+        "foreground": "#56A8F5"
+      }
+    },
+    {
+      "name": "[TS] Function Declaration Anonymous",
+      "scope": [
+        "entity.name.function.ts",
+        "entity.name.function.js",
+        "entity.name.function.jsx",
+        "entity.name.function.tsx"
+      ],
+      "settings": {
+        "foreground": "#56A8F5"
+      }
+    },
+    {
+      "name": "[TS] Method Declaration",
+      "scope": [
+        "meta.definition.method",
+      ],
+      "settings": {
+        "foreground": "#56A8F5"
+      }
+    },
+    {
+      "name": "Keywords class, typeof, keyof, this",
+      "scope": [
+        "storage.type.class",
+        "keyword.operator.expression.keyof",
+        "keyword.operator.expression.typeof",
+        "keyword.operator.expression.in",
+        "keyword.operator.expression.of",
+        "keyword.operator.expression.delete.js",
+        "keyword.operator.expression.delete.ts",
+        "keyword.operator.expression.instanceof",
+        "keyword.operator.expression.void.ts",
+        "variable.language.this"
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+    {
+      "name": "Class Storage Modifier (extends, implements)",
+      "scope": [
+        "storage.modifier",
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+    {
+      "name": "Declaration (let, const, new)",
+      "scope": [
+        "storage.type",
+        "keyword.operator.new"
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+    {
+      "name": "Type Primitive",
+      "scope": [
+        "support.type.primitive",
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+    // {
+    //   "name": "TS Generic Type Var",
+    //   "scope": [
+    //     "entity.name.type.ts",
+    //   ],
+    //   "settings": {
+    //     //"foreground": "#507874"
+    //     "foreground": "#1DB8AB"
+    //   }
+    // },
+    {
+      "name": "[typescript, javascript] property",
+      "scope": [
+        "variable.other.object.property.js",
+        "variable.other.object.property.ts",
+        "variable.other.property.js",
+        "variable.other.property.ts"
+      ],
+      "settings": {
+        "foreground": "#C77DBB"
+      }
+    },
+    {
+      "name": "[typescript, javascript] Super Keyword",
+      "scope": [
+        "variable.language.super.js",
+        "variable.language.super.ts",
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+    {
+      "name": "[JS] Documentation Variable & Type Var",
+      "scope": [
+        "variable.other.jsdoc",
+        "entity.name.type.instance.jsdoc"
+      ],
+      "settings": {
+        "foreground": "#ABADB3"
+      }
+    },
+    {
+      "name": "[JS] String Interpolation",
+      "scope": [
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end",
+        "string.template variable",
+        "string.template meta.brace",
+        "string.template punctuation.accessor",
+        "string.template support.variable"
+      ],
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
+    {
+      "name": "[JS] String Template",
+      "scope": [
+        "string.template.js",
+        "string.template.ts",
+      ],
+      "settings": {
+        "foreground": "#6AAB73"
+      }
+    },
+    {
+      "name": "[JS] Regex",
+      "scope": [
+        "string.regexp.ts punctuation.definition.string.begin.ts",
+        "string.regexp.js punctuation.definition.string.begin.js",
+        "string.regexp.js punctuation.definition.string.end.js",
+        "string.regexp.ts punctuation.definition.string.end.ts",
+        "string.regexp.js",
+        "string.regexp.ts"
+      ],
+      "settings": {
+        "foreground": "#42C3D4"
+      }
+    },
+  ],
+  "semanticTokenColors": {
+    // Javascript
+    "property": "#C77DBB",
+    "method.static:javascript": {
+      "foreground": "#57AAF7",
+      "fontStyle": "italic"
+    },
+    "variable.local:javascript": "#A9B7C6",
+    "variable.defaultLibrary:javascript": {
+      "foreground": "#C77DBB",
+      "fontStyle": "italic"
+    },
+    "class.defaultLibrary:javascript": {
+      "foreground": "#C77DBB",
+      "fontStyle": "italic"
+    },
+    // Typescript
+    "method.static:typescript": {
+      "foreground": "#57AAF7",
+      "fontStyle": "italic"
+    },
+    "variable.local:typescript": "#A9B7C6",
+    "variable.defaultLibrary:typescript": {
+      "foreground": "#C77DBB",
+      "fontStyle": "italic"
+    },
+    "class.defaultLibrary:typescript": {
+      "foreground": "#C77DBB",
+      "fontStyle": "italic"
+    },
+    "enumMember:typescript": {
+      "foreground": "#C77DBB",
+      "italic": true
+    },
+  }
+}

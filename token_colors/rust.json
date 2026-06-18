@@ -1,0 +1,107 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "tokenColors": [
+    {
+      "name": "[Rust] Lifetime",
+      "scope": [
+        "entity.name.type.lifetime.rust",
+        "punctuation.definition.lifetime.rust",
+        "storage.modifier.lifetime.rust",
+      ],
+      "settings": {
+        "foreground": "#20999D"
+      }
+    },
+    {
+      "name": "[Rust] Self Keyword",
+      "scope": [
+        "variable.language.self",
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+    {
+      "name": "[Rust] Keyword questionmark",
+      "scope": [
+        "keyword.operator.question.rust"
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+    {
+      "name": "[Rust] Macro",
+      "scope": [
+        "entity.name.function.macro.rust",
+        "entity.name.function.macro.rules.rust",
+        "keyword.operator.macro.dollar.rust",
+        "variable.other.metavariable.specifier.rust",
+        "variable.other.metavariable.name"
+      ],
+      "settings": {
+        "foreground": "#FFC66D"
+      }
+    },
+    {
+      "name": "[Rust] Metavariable Name",
+      "scope": [
+        "entity.name.type.metavariable.rust",
+        "variable.other.metavariable.name.rust",
+      ],
+      "settings": {
+        "foreground": "#56A8F5"
+      }
+    },
+    // {
+    //   "name": "[Rust] String Interpolation",
+    //   "scope": [
+    //     "punctuation.definition.interpolation",
+    //   ],
+    //   "settings": {
+    //     "foreground": "#CF8E6D"
+    //   }
+    // },
+    {
+      "name": "[Rust] Attribute",
+      "scope": [
+        "meta.attribute.rust",
+        "punctuation.definition.attribute.rust",
+        "punctuation.brackets.attribute.rust",
+        "meta.attribute.rust punctuation.brackets.round.rust"
+      ],
+      "settings": {
+        "foreground": "#B3AE60"
+      }
+    },
+  ],
+  "semanticTokenColors": {
+    "function.declaration": "#56A8F5",
+    "operator.controlFlow": "#CF8E6D",
+    "struct": "#BCBEC4",
+    "decorator": "#B3AE60",
+    "variable.mutable": {
+      "fontStyle": "underline"
+    },
+    "variable.declaration.mutable": {
+      "fontStyle": "underline"
+    },
+    "macro:rust": "#FFC66D",
+    "attributeBracket:rust": "#B3AE60",
+    "const.declaration.constant": {
+      "foreground": "#C77DBB",
+      "fontStyle": "italic"
+    },
+    "property.declaration:rust": "#C77DBB",
+    "derive": "#BCBEC4",
+    "function.static.defaultLibrary.associated.library:rust": {
+      "foreground": "#56A8F5",
+      "fontStyle": "italic"
+    },
+    "enumMember:rust": {
+      "foreground": "#C77DBB",
+      "fontStyle": "italic"
+    },
+    "formatSpecifier": "#CF8E6D",
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "tokenColors": [
+    {
+      "name": "[HTML] Tag",
+      "scope": [
+        "entity.name.tag",
+        "punctuation.definition.tag.begin",
+        "punctuation.definition.tag.end",
+        "punctuation.definition.tag.xml",
+        "keyword.other.doctype.xml"
+      ],
+      "settings": {
+        "foreground": "#D5B778"
+      }
+    },
+    {
+      "name": "[HTML] Attribute Name",
+      "scope": [
+        "entity.other.attribute-name.html",
+        "entity.other.attribute-name.tsx"
+      ],
+      "settings": {
+        "foreground": "#BABABA"
+      }
+    },
+    {
+      "name": "[HTML] Punctuation Separator (=)",
+      "scope": [
+        "punctuation.separator.key-value.html",
+        "meta.tag.xml",
+        "meta.tag.preprocessor.xml"
+      ],
+      "settings": {
+        "foreground": "#6AAB73"
+      }
+    },
+    {
+      "name": "[XML] Attribute Name",
+      "scope": [
+        // "entity.other.attribute-name.localname.xml",
+        "text.xml entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
+    {
+      "name": "[HTML] Entity Name",
+      "scope": [
+        "text.html constant.character.entity",
+        "text.xml constant.character.entity.xml",
+        "punctuation.definition.entity.html",
+        "punctuation.definition.constant.xml"
+      ],
+      "settings": {
+        "foreground": "#56A8F5"
+      }
+    },
+    {
+      "name": "[HTML] Custom Tag",
+      "scope": [
+        "meta.tag.custom.start.html entity.name.tag.html",
+        "meta.tag.custom.end.html entity.name.tag.html"
+      ],
+      "settings": {
+        "foreground": "#2FBAA3"
+      }
+    },
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "tokenColors": [
+    {
+      "name": "[Common] Emphasis",
+      "scope": "emphasis",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[Common] Strong",
+      "scope": "strong",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "[Common] Header",
+      "scope": "header",
+      "settings": {
+        "foreground": "#000080"
+      }
+    },
+    {
+      "name": "[Common] Invalid",
+      "scope": "invalid",
+      "settings": {
+        "foreground": "#FA6675"
+      }
+    },
+    {
+      "name": "[Common] Text",
+      "scope": [
+        "text"
+      ],
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
+    {
+      "name": "[Common] Source",
+      "scope": [
+        "source"
+      ],
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
+    {
+      "name": "[Common] Comment",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#7A7E85"
+      }
+    },
+    {
+      "name": "[Common] String",
+      "scope": [
+        "string.quoted.double",
+        "string.quoted.single",
+        "punctuation.definition.string.begin",
+        "punctuation.definition.string.end"
+      ],
+      "settings": {
+        "foreground": "#6AAB73",
+      }
+    },
+    {
+      "name": "[Common] String Interpolation Variable",
+      "scope": [
+        "variable.other.readwrite"
+      ],
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
+    {
+      "name": "[Common] Keyword",
+      "scope": [
+        "keyword"
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+    {
+      "name": "[Common] Keyword Control",
+      "scope": [
+        "keyword.operator.flow"
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+    {
+      "name": "[Common] Keyword Operator",
+      "scope": [
+        "keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
+    {
+      "name": "[Common] Keyword Operator Logical",
+      "scope": [
+        "keyword.operator.logical"
+      ],
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
+    {
+      "name": "[Common] Function Storage Type Definition",
+      "scope": [
+        "storage.type.function"
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+    {
+      "name": "[Common] Constant Character",
+      "scope": [
+        "constant.character"
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+    {
+      "name": "[Common] Function Definition",
+      "scope": [
+        "entity.name.function.definition"
+      ],
+      "settings": {
+        "foreground": "#56A8F5"
+      }
+    },
+    {
+      "name": "[Common] Function Declaration",
+      "scope": [
+        "meta.definition.function",
+      ],
+      "settings": {
+        "foreground": "#56A8F5"
+      }
+    },
+    {
+      "name": "[Common] Function Entity Name",
+      "scope": [
+        "entity.name.function",
+      ],
+      "settings": {
+        "foreground": "#56A8F5"
+      }
+    },
+    {
+      "name": "[Common] Support Function",
+      "scope": [
+        "support.function",
+      ],
+      "settings": {
+        "foreground": "#56A8F5"
+      }
+    },
+    // {
+    // 	"name": "[Common] Type",
+    // 	"scope": [
+    // 		"keyword.other.type",
+    // 	],
+    // 	"settings": {
+    // 		"foreground": "#1DB8AB"
+    // 	}
+    // },
+    {
+      "name": "[Common] Constant Language",
+      "scope": [
+        "constant.language",
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+    {
+      "name": "[Common] Constant Caps",
+      "scope": [
+        "constant.other.caps",
+      ],
+      "settings": {
+        "foreground": "#C77DBB"
+      }
+    },
+    {
+      "name": "[Common] Numeric",
+      "scope": [
+        "constant.numeric",
+        "storage.type.numeric.bigint",
+        "keyword.operator.plus.exponent",
+        "keyword.operator.minus.exponent"
+      ],
+      "settings": {
+        "foreground": "#2AACB8"
+      }
+    },
+    {
+      "name": "[Common] Escape Sequence",
+      "scope": [
+        "constant.character.escape",
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+    {
+      "name": "[Common] Property",
+      "scope": [
+        "variable.object.property",
+        // "variable.other.property",
+        // "variable.other.enummember"
+      ],
+      "settings": {
+        "foreground": "#C77DBB"
+      }
+    },
+    {
+      "name": "[Common] Decorator",
+      "scope": [
+        "punctuation.decorator",
+        "punctuation.definition.decorator",
+        "entity.name.function.decorator",
+      ],
+      "settings": {
+        "foreground": "#B3AE60"
+      }
+    },
+    {
+      "name": "[Common] Documentation",
+      "scope": [
+        "comment.block.documentation",
+        "punctuation.definition.comment.begin.documentation",
+        "punctuation.definition.comment.end.documentation",
+        "comment.block.documentation punctuation.definition.comment",
+        "comment.block.javadoc.java",
+        "comment.block.javadoc.java punctuation.definition.comment.java"
+      ],
+      "settings": {
+        "foreground": "#5F826B",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[Common] Documentation Tag",
+      "scope": [
+        "comment.block.documentation storage.type.class",
+        "comment.block.documentation punctuation.definition.block.tag",
+        "keyword.other.documentation.javadoc.java"
+      ],
+      "settings": {
+        "foreground": "#67A37C"
+      }
+    },
+    {
+      "name": "[Common] Documentation Variable",
+      "scope": [
+        "comment.block.documentation variable.other",
+        "comment.block.documentation variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#ABADB3"
+      }
+    }
+  ],
+  "semanticTokenColors": {
+    "comment.documentation": "#5F826B",
+  }
+}

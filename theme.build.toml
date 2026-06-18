@@ -1,0 +1,66 @@
+[build]
+output = "themes"
+
+[defs]
+editor_colors = "./token_colors/editor_colors.json"
+common = "./token_colors/common.json"
+json = "./token_colors/json.json"
+toml_ini = "./token_colors/toml_ini.json"
+html = "./token_colors/html.json"
+css = "./token_colors/css.json"
+js_ts = "./token_colors/js_ts.json"
+react = "./token_colors/react.json"
+vue = "./token_colors/vue.json"
+python = "./token_colors/python.json"
+c_cpp = "./token_colors/c_cpp.json"
+java = "./token_colors/java.json"
+go = "./token_colors/go.json"
+r = "./token_colors/r.json"
+rust = "./token_colors/rust.json"
+shell = "./token_colors/shell.json"
+powershell = "./token_colors/powershell.json"
+ruby = "./token_colors/ruby.json"
+php = "./token_colors/php.json"
+tex = "./token_colors/tex.json"
+
+
+markdown = "./token_colors/markdown.json"
+vibrant = "./token_colors/vibrant.json"
+
+[themes.syntax]
+name = "JetBrains Dark Syntax"
+filename = "jetbrains-dark-syntax"
+defs = [
+    "common",
+    "json",
+    "toml_ini",
+    "html",
+    "css",
+    "js_ts",
+    "react",
+    "vue",
+    "python",
+    "c_cpp",
+    "go",
+    "r",
+    "rust",
+    "shell",
+    "powershell",
+    "php",
+    "ruby",
+    "java",
+    "tex",
+    "markdown"
+]
+
+[themes.dark]
+name = "JetBrains Dark"
+filename = "jetbrains-dark"
+include = "syntax"
+defs = ["editor_colors"]
+
+[themes.vibrant]
+name = "JetBrains Dark Vibrant"
+filename = "jetbrains-dark-vibrant"
+include = "dark"
+defs = ["vibrant"]

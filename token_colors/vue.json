@@ -1,0 +1,30 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "tokenColors": [
+    {
+      "name": "[Vue] Special Tags",
+      "scope": [
+        "entity.name.tag.style.html.vue",
+        "entity.name.tag.script.html.vue",
+        "entity.name.tag.template.html.vue",
+        "meta.tag.structure.slot.start.html entity.name.tag.html",
+        "meta.tag.structure.slot.end.html entity.name.tag.html"
+      ],
+      "settings": {
+        "foreground": "#2FBAA3"
+      }
+    },
+    {
+      "name": "[Vue] template.tag.nested.fix",
+      "scope": [
+        "text.html.derivative entity.name.tag.template.html.vue"
+      ],
+      "settings": {
+        "foreground": "#D5B778"
+      }
+    },
+  ],
+  "semanticTokenColors": {
+    "class:vue": "#2FBAA3"
+  }
+}

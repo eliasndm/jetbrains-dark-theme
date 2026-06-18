@@ -3,9 +3,9 @@ const path = require('path');
 const jsonc = require('jsonc-parser');
 
 // Determine source and destination directories
-const srcDir = path.dirname(__dirname);
-const THEMES_DIR = path.join(srcDir, 'themes');
-const DIST_DIR = path.join(srcDir, 'dist', 'jetbrains-dark');
+const SRC_DIR = path.dirname(__dirname);
+const THEMES_DIR = path.join(SRC_DIR, 'themes');
+const DIST_DIR = path.join(SRC_DIR, 'dist', 'jetbrains-dark');
 const DIST_THEMES = path.join(DIST_DIR, 'themes');
 
 console.log('Running build script');
@@ -24,21 +24,19 @@ const REQUIRED_FILES = [
 
 // Copy metadata files
 for (const file of REQUIRED_FILES) {
-  const srcPath = path.join(srcDir, file);
+  const srcPath = path.join(SRC_DIR, file);
   const destPath = path.join(DIST_DIR, file);
-  if (!fs.existsSync(srcDir)) {
+  if (!fs.existsSync(SRC_DIR)) {
     console.error(`Error: File ${file} does not exist.`);
     process.exit(1);
   }
   fs.cpSync(srcPath, destPath);
 }
 
-// Theme files to process
-const THEMES = [
-  'jetbrains-dark.json',
-  'jetbrains-dark-syntax.json',
-  'jetbrains-dark-vibrant.json',
-];
+// Theme files to process (every JSON file in the themes directory)
+const THEMES = fs
+  .readdirSync(THEMES_DIR)
+  .filter(file => file.endsWith('.json'));
 
 for (const themeFilename of THEMES) {
   const themeFilepath = fs.readFileSync(path.join(THEMES_DIR, themeFilename), {
@@ -49,18 +47,6 @@ for (const themeFilename of THEMES) {
   try {
     let errorsList = [];
     themeJson = jsonc.parse(themeFilepath, errorsList);
-
-    // Reduce scope arrays that contain only one scope
-    // to a string if theme contains a tokenColors array
-    if (Array.isArray(themeJson.tokenColors)) {
-      for (const rule of themeJson.tokenColors) {
-        if (Array.isArray(rule.scope)) {
-          if (rule.scope.length === 1) {
-            rule.scope = rule.scope[0];
-          }
-        }
-      }
-    }
   } catch (err) {
     console.error(`Failed to parse ${themeFilename}:`, err.message);
     throw err;
@@ -71,4 +57,4 @@ for (const themeFilename of THEMES) {
   fs.writeFileSync(outPath, minified, 'utf8');
 }
 
-console.log('Build successful.');
+console.log('Built extension successfully.');

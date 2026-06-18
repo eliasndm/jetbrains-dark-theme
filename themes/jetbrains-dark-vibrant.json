@@ -4,38 +4,25 @@
   "include": "./jetbrains-dark.json",
   "tokenColors": [
     {
-      "scope": ["entity.name.type.class"],
+      "scope": "entity.name.type.class",
       "settings": {
         "foreground": "#16BAAC"
       }
     },
     {
       "name": "[Python] Attribute Caps Enum & Constant",
-      "scope": [
-        "constant.other.caps.python",
-      ],
+      "scope": "constant.other.caps.python",
       "settings": {
         "foreground": "#C77DBB"
       }
     },
     {
       "name": "[Python] storage.type.string",
-      "scope": [
-        "storage.type.string.python",
-      ],
+      "scope": "storage.type.string.python",
       "settings": {
         "foreground": "#CF8E6D"
       }
     },
-    // {
-    //   "name": "[Rust] Type Parameter",
-    //   "scope": [
-    //     "entity.name.type.rust",
-    //   ],
-    //   "settings": {
-    //     "foreground": "#16BAAC"
-    //   }
-    // },
     {
       "name": "[Vue] directive",
       "scope": [
@@ -47,18 +34,15 @@
       "settings": {
         "foreground": "#CF8E6D"
       }
-    },
+    }
   ],
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "class": "#16BAAC",
     "struct": "#16BAAC",
-    // "class:python": "#2fbaa3",
     "class.typeHint": "#8888C6",
-    // "variable.readonly": "#C77DBB",
     "enum": "#16BAAC",
     "enum.defaultLibrary": "#8888C6",
-    // "namespace": "#16BAAC",
     "module": "#16BAAC",
     "interface": "#16BAAC"
   }

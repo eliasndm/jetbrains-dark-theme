@@ -1,0 +1,121 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "tokenColors": [
+    {
+      "name": "[PHP] Documentation Tag",
+      "scope": [
+        "keyword.other.phpdoc.php"
+      ],
+      "settings": {
+        "foreground": "#67A37C",
+      }
+    },
+    {
+      "name": "[PHP] Documentation Variable",
+      "scope": [
+        "meta.other.type.phpdoc.php keyword.other.type.php",
+      ],
+      "settings": {
+        "foreground": "#ABADB3",
+      }
+    },
+    {
+      "name": "[PHP] Documentation Template Type",
+      "scope": [
+        "meta.other.type.phpdoc.php support.class.php",
+      ],
+      "settings": {
+        "foreground": "#16BAAC",
+      }
+    },
+    {
+      "name": "[PHP] Function",
+      "scope": [
+        "entity.name.function.php",
+        "support.function.constructor.php"
+      ],
+      "settings": {
+        "foreground": "#57AAF7",
+      }
+    },
+    {
+      "name": "[PHP] Method Call Static",
+      "scope": [
+        "meta.method-call.static.php entity.name.function.php",
+      ],
+      "settings": {
+        "foreground": "#57AAF7",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[PHP] Parameter",
+      "scope": [
+        "entity.name.variable.parameter.php",
+      ],
+      "settings": {
+        "foreground": "#467CDA"
+      }
+    },
+    {
+      "name": "[PHP] Attribute",
+      "scope": [
+        "meta.attribute.php"
+      ],
+      "settings": {
+        "foreground": "#B3AE60",
+      }
+    },
+    {
+      "name": "[PHP] Variable",
+      "scope": [
+        "variable.other.php",
+        "punctuation.definition.variable.php",
+        "variable.language.this.php"
+      ],
+      "settings": {
+        "foreground": "#9876AA",
+      }
+    },
+    {
+      "name": "[PHP] Constant & Storage Type",
+      "scope": [
+        "constant.enum.php",
+        "constant.other.php",
+        "storage.type.php",
+        "constant.other.class.php"
+      ],
+      "settings": {
+        "foreground": "#9876AA",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[PHP] Property",
+      "scope": [
+        "variable.other.property.php",
+      ],
+      "settings": {
+        "foreground": "#C77DBB",
+      }
+    },
+    {
+      "name": "[PHP] Keyword Echo",
+      "scope": [
+        "support.function.construct.output.php",
+      ],
+      "settings": {
+        "foreground": "#CF8E6D",
+      }
+    },
+    {
+      "name": "[PHP] punctuation.section.embedded.questionmark",
+      "scope": [
+        "punctuation.section.embedded.end.php source.php",
+      ],
+      "settings": {
+        "foreground": "#CF8E6D",
+      }
+    },
+  ]
+}

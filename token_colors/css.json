@@ -1,0 +1,128 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "tokenColors": [
+    {
+      "name": "[CSS] Selectors",
+      "scope": [
+        "entity.other.attribute-name",
+        "support.type.map.key.scss"
+      ],
+      "settings": {
+        "foreground": "#D5B778"
+      }
+    },
+    {
+      "name": "[CSS] Functions",
+      "scope": [
+        "source.css support.function",
+        "source.scss support.function",
+        "source.less support.function",
+        "entity.name.function.scss"
+      ],
+      "settings": {
+        "foreground": "#D5B778"
+      }
+    },
+    {
+      "name": "[CSS] Variable",
+      "scope": [
+        "variable.argument.css",
+      ],
+      "settings": {
+        "foreground": "#D5B778"
+      }
+    },
+    {
+      "name": "[CSS] Percent Unit",
+      "scope": [
+        "keyword.other.unit.percentage",
+      ],
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
+    {
+      "name": "[CSS] Property Name",
+      "scope": [
+        "support.type.property-name",
+      ],
+      "settings": {
+        "foreground": "#BABABA"
+      }
+    },
+    {
+      "name": "[CSS] Propery Value & Units & Color Name",
+      "scope": [
+        "constant.character.escape.scss",
+        "source.css keyword.other.unit",
+        "source.scss keyword.other.unit",
+        "source.less keyword.other.unit",
+        "keyword.operator.gradient",
+        "source.css support.constant",
+        "source.scss support.constant"
+      ],
+      "settings": {
+        "foreground": "#6AAB73"
+      }
+    },
+    {
+      "name": "[CSS] RGB HEX",
+      "scope": [
+        "constant.other.color.rgb-value",
+        "constant.other.color.rgb-value.hex",
+        "constant.other.color.rgb-value punctuation.definition.constant"
+      ],
+      "settings": {
+        "foreground": "#56A8F5"
+      }
+    },
+    {
+      "name": "[CSS] Keyword At-Rule",
+      "scope": [
+        "punctuation.definition.keyword",
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+    {
+      "name": "[CSS] Variable Parameter Url",
+      "scope": [
+        "variable.parameter.url",
+      ],
+      "settings": {
+        "foreground": "#5C92FF"
+      }
+    },
+    {
+      "name": "[SCSS] Variable",
+      "scope": [
+        "variable.scss",
+        "support.other.variable.less",
+        "punctuation.definition.variable.less"
+      ],
+      "settings": {
+        "foreground": "#6D9CBE"
+      }
+    },
+    {
+      "name": "[SCSS] Interpolation",
+      "scope": [
+        "variable.interpolation.scss",
+      ],
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
+    {
+      "name": "[SCSS] Mixin",
+      "scope": [
+        "keyword.control.at-rule.mixin",
+        "keyword.control.at-rule.mixin punctuation.definition.keyword"
+      ],
+      "settings": {
+        "foreground": "#D0D0FF"
+      }
+    },
+  ]
+}

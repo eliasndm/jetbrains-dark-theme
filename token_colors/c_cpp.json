@@ -1,0 +1,149 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "tokenColors": [
+    {
+      "name": "[C] Control Directive define",
+      "scope": [
+        "source.c keyword.control.directive",
+        "source.cpp keyword.control.directive",
+        "punctuation.definition.directive.c",
+        "punctuation.definition.directive.cpp"
+      ],
+      "settings": {
+        "foreground": "#B3AE60"
+      }
+    },
+    {
+      "name": "[C] storage.type.number",
+      "scope": [
+        "string.quoted.other.lt-gt.include.c",
+        "string.quoted.other.lt-gt.include.cpp"
+      ],
+      "settings": {
+        "foreground": "#6AAB73"
+      }
+    },
+    {
+      "name": "[C] storage.type.number",
+      "scope": [
+        "keyword.other.unit.binary.c",
+        "keyword.other.unit.octal.c",
+        "keyword.other.unit.hexadecimal.c",
+      ],
+      "settings": {
+        "foreground": "#2AACB8"
+      }
+    },
+    {
+      "name": "[C] keyword.operator.sizeof.c",
+      "scope": [
+        "keyword.operator.sizeof.c",
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+    {
+      "name": "[Cpp] Namespace",
+      "scope": [
+        "entity.name.scope-resolution.cpp",
+        "entity.name.namespace.cpp"
+      ],
+      "settings": {
+        "foreground": "#B5B6E3"
+      }
+    },
+    {
+      "name": "[Cpp] Struct, Class, Enum",
+      "scope": [
+        "entity.name.type.struct.cpp",
+        "entity.name.type.class.cpp",
+        "entity.name.type.enum.cpp"
+      ],
+      "settings": {
+        "foreground": "#B5B6E3"
+      }
+    },
+    {
+      "name": "[Cpp] Type",
+      "scope": [
+        "entity.name.type.template.cpp"
+      ],
+      "settings": {
+        "foreground": "#B9BCD1"
+      }
+    },
+    {
+      "name": "[Cpp] Struct field",
+      "scope": [
+        "variable.other.property.cpp",
+      ],
+      "settings": {
+        "foreground": "#9373A5"
+      }
+    },
+    {
+      "name": "[Cpp] Overloading Operator",
+      "scope": [
+        "keyword.operator.bitwise.shift.cpp",
+      ],
+      "settings": {
+        "foreground": "#5F8CBA"
+      }
+    },
+    {
+      "name": "[Cpp] Enum Member",
+      "scope": [
+        "variable.other.enummember.cpp",
+      ],
+      "settings": {
+        "foreground": "#C77DBB",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[Cpp] Storage Modifier Reference",
+      "scope": [
+        "storage.modifier.reference.cpp",
+      ],
+      "settings": {
+        "foreground": "#BCBEC4",
+      }
+    },
+    {
+      "name": "[Cpp] Macro Name Preprocessor",
+      "scope": [
+        "entity.name.function.preprocessor.cpp",
+      ],
+      "settings": {
+        "foreground": "#908B25"
+      }
+    },
+    {
+      "name": "[Cpp] Numeric Suffix",
+      "scope": [
+        "keyword.other.unit.suffix.floating-point.cpp",
+        "keyword.other.unit.binary.cpp",
+        "keyword.other.unit.octal.cpp",
+        "keyword.other.unit.hexadecimal.cpp"
+      ],
+      "settings": {
+        "foreground": "#2AACB8"
+      }
+    },
+  ],
+  "semanticTokenColors": {
+    // C++
+    "newOperator": "#CF8E6D",
+    "stringLiteral": "#6AAB73",
+    "customLiteral": "#BCBEC4",
+    "numberLiteral": "#2AACB8",
+    "operatorOverload": "#5F8CBA",
+    "memberOperatorOverload": "#5F8CBA",
+    "type:cpp": "#B5B6E3",
+    // C
+    "property:c": "#9373A5",
+    "type:c": "#B5B6E3",
+    "macro:c": "#908B25",
+  }
+}

@@ -2,13 +2,17 @@
   "name": "jetbrains-dark",
   "displayName": "JetBrains Dark (New) Theme",
   "description": "A faithful port of the JetBrains Dark Theme",
-  "version": "0.6.5",
+  "version": "0.7.0",
   "publisher": "eliasnd",
   "license": "MIT",
   "readme": "README.md",
   "icon": "./icon.png",
   "scripts": {
-    "build": "node ./scripts/build.js",
+    "build:dist": "node ./scripts/build_dist.js",
+    "build:lib": "tsc -p tsconfig.json",
+    "build:themes": "node ./scripts/build_themes.js",
+    "build": "npm run build:lib && pnpm run build:themes && pnpm run build:dist",
+    "watch": "npm run build:lib && node ./scripts/watch.js",
     "prepubchecks": "node ./scripts/prepublish.js",
     "package": "cd dist/jetbrains-dark && vsce package",
     "prepublishOnly": "npm run build && npm run prepubchecks && npm run package",
@@ -63,6 +67,9 @@
     ]
   },
   "devDependencies": {
-    "jsonc-parser": "^3.3.1"
+    "@types/node": "^25.9.3",
+    "jsonc-parser": "^3.3.1",
+    "toml": "^4.1.1",
+    "typescript": "^6.0.3"
   }
 }

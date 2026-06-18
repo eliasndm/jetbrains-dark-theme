@@ -1,0 +1,25 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "tokenColors": [
+    {
+      "name": "[R] Documentation",
+      "scope": [
+        "comment.line.roxygen.r",
+        "comment.line.roxygen.r punctuation.definition.comment",
+      ],
+      "settings": {
+        "foreground": "#5F826B",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[R] Documentation Tag",
+      "scope": [
+        "comment.line.roxygen.r keyword.other.r",
+      ],
+      "settings": {
+        "foreground": "#67A37C"
+      }
+    },
+  ]
+}

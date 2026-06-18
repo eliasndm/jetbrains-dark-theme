@@ -1,0 +1,76 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "tokenColors": [
+    {
+      "name": "[Shell] Command",
+      "scope": [
+        "entity.name.command.shell",
+        "support.function.builtin.shell"
+      ],
+      "settings": {
+        "foreground": "#C57633"
+      }
+    },
+    {
+      "name": "[Shell] Function",
+      "scope": [
+        "entity.name.function.shell",
+      ],
+      "settings": {
+        "foreground": "#56A8F5"
+      }
+    },
+    {
+      "name": "[Shell] Shebang",
+      "scope": [
+        "meta.shebang.shell",
+        "punctuation.definition.comment.shebang.shell",
+        "punctuation.definition.string.heredoc.delimiter.shell"
+      ],
+      "settings": {
+        "foreground": "#BCBEC4",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "[Shell] Command",
+      "scope": [
+        "meta.statement.command.shell constant.other.option",
+        "string.unquoted.argument.shell",
+        "string.unquoted.heredoc.no-indent.EOF"
+      ],
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
+    {
+      "name": "[Shell] Subshell Punctuation Definition",
+      "scope": [
+        "punctuation.definition.subshell.single.shell",
+      ],
+      "settings": {
+        "foreground": "#CF8E6D",
+      }
+    },
+    {
+      "name": "[Shell] Keywords",
+      "scope": [
+        "meta.argument.shell keyword.operator.redirect.shell",
+        "punctuation.definition.evaluation.backticks.shell",
+        "punctuation.definition.variable.shell"
+      ],
+      "settings": {
+        "foreground": "#CF8E6D",
+      }
+    },
+    {
+      "name": "[Batch] Keywords",
+      "scope": [
+        "keyword.operator.logical.batchfile",
+      ],
+      "settings": {
+        "foreground": "#CF8E6D",
+      }
+    },
+  ]
+}
