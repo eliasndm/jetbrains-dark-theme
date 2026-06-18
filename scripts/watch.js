@@ -36,7 +36,6 @@ function watchTargets(config) {
 
 let timer = null;
 function scheduleRebuild() {
-  // Debounce: editors often emit several events per save.
   clearTimeout(timer);
   timer = setTimeout(() => {
     try {
@@ -60,7 +59,6 @@ for (const file of watchTargets(config)) {
     console.warn(`Skipping missing watch target: ${path.relative(ROOT_DIR, file)}`);
     continue;
   }
-  // Watch the parent dir so atomic saves (rename/replace) keep firing.
   fs.watch(path.dirname(file), (_event, filename) => {
     if (filename && path.basename(file) === filename) {
       scheduleRebuild();
