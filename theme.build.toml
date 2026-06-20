@@ -7,6 +7,7 @@ common = "./token_colors/common.json"
 json = "./token_colors/json.json"
 toml_ini = "./token_colors/toml_ini.json"
 html = "./token_colors/html.json"
+xml = "./token_colors/xml.json"
 css = "./token_colors/css.json"
 js_ts = "./token_colors/js_ts.json"
 react = "./token_colors/react.json"
@@ -35,6 +36,7 @@ defs = [
     "json",
     "toml_ini",
     "html",
+    "xml",
     "css",
     "js_ts",
     "react",

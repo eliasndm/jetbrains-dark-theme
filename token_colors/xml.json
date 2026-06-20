@@ -1,0 +1,37 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "tokenColors": [
+    {
+      "name": "[XML] Attribute Name",
+      "scope": [
+        // "entity.other.attribute-name.localname.xml",
+        "text.xml entity.other.attribute-name",
+        "source.xaml entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
+    {
+      "name": "[HTML] Entity Name",
+      "scope": [
+        "text.xml constant.character.entity.xml",
+        "punctuation.definition.constant.xml"
+      ],
+      "settings": {
+        "foreground": "#56A8F5"
+      }
+    },
+    {
+      "name": "[XML] Punctuation Separator (=)",
+      "scope": [
+        "punctuation.separator.key-value.html",
+        "meta.tag.xml",
+        "meta.tag.preprocessor.xml"
+      ],
+      "settings": {
+        "foreground": "#6AAB73"
+      }
+    },
+  ]
+}

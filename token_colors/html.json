@@ -28,30 +28,16 @@
       "name": "[HTML] Punctuation Separator (=)",
       "scope": [
         "punctuation.separator.key-value.html",
-        "meta.tag.xml",
-        "meta.tag.preprocessor.xml"
       ],
       "settings": {
         "foreground": "#6AAB73"
       }
     },
     {
-      "name": "[XML] Attribute Name",
-      "scope": [
-        // "entity.other.attribute-name.localname.xml",
-        "text.xml entity.other.attribute-name"
-      ],
-      "settings": {
-        "foreground": "#BCBEC4"
-      }
-    },
-    {
       "name": "[HTML] Entity Name",
       "scope": [
         "text.html constant.character.entity",
-        "text.xml constant.character.entity.xml",
         "punctuation.definition.entity.html",
-        "punctuation.definition.constant.xml"
       ],
       "settings": {
         "foreground": "#56A8F5"
