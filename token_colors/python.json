@@ -4,6 +4,7 @@
     {
       "name": "[Python] Docstring",
       "scope": [
+        "string.quoted.docstring.single",
         "string.quoted.docstring.multi",
         "string.quoted.docstring.raw.multi.python",
         "string.quoted.docstring punctuation.definition.string.begin.python",
@@ -150,6 +151,7 @@
     }
   ],
   "semanticTokenColors": {
+    "string.documentation": "#5F826B",
     "selfParameter:python": "#94558D",
     "selfParameter.declaration:python": "#94558D",
     "clsParameter:python": "#94558D",
