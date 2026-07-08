@@ -315,29 +315,16 @@
     },
     {
       "name": "[HTML] Punctuation Separator (=)",
-      "scope": [
-        "punctuation.separator.key-value.html",
-        "meta.tag.xml",
-        "meta.tag.preprocessor.xml"
-      ],
+      "scope": "punctuation.separator.key-value.html",
       "settings": {
         "foreground": "#6AAB73"
-      }
-    },
-    {
-      "name": "[XML] Attribute Name",
-      "scope": "text.xml entity.other.attribute-name",
-      "settings": {
-        "foreground": "#BCBEC4"
       }
     },
     {
       "name": "[HTML] Entity Name",
       "scope": [
         "text.html constant.character.entity",
-        "text.xml constant.character.entity.xml",
-        "punctuation.definition.entity.html",
-        "punctuation.definition.constant.xml"
+        "punctuation.definition.entity.html"
       ],
       "settings": {
         "foreground": "#56A8F5"
@@ -351,6 +338,37 @@
       ],
       "settings": {
         "foreground": "#2FBAA3"
+      }
+    },
+    {
+      "name": "[XML] Attribute Name",
+      "scope": [
+        "text.xml entity.other.attribute-name",
+        "source.xaml entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
+    {
+      "name": "[HTML] Entity Name",
+      "scope": [
+        "text.xml constant.character.entity.xml",
+        "punctuation.definition.constant.xml"
+      ],
+      "settings": {
+        "foreground": "#56A8F5"
+      }
+    },
+    {
+      "name": "[XML] Punctuation Separator (=)",
+      "scope": [
+        "punctuation.separator.key-value.html",
+        "meta.tag.xml",
+        "meta.tag.preprocessor.xml"
+      ],
+      "settings": {
+        "foreground": "#6AAB73"
       }
     },
     {
@@ -657,8 +675,16 @@
       }
     },
     {
+      "name": "[Svelte] Component",
+      "scope": "support.class.component.svelte",
+      "settings": {
+        "foreground": "#16BAAC"
+      }
+    },
+    {
       "name": "[Python] Docstring",
       "scope": [
+        "string.quoted.docstring.single",
         "string.quoted.docstring.multi",
         "string.quoted.docstring.raw.multi.python",
         "string.quoted.docstring punctuation.definition.string.begin.python",
@@ -1600,6 +1626,7 @@
       "italic": true
     },
     "class:vue": "#2FBAA3",
+    "string.documentation": "#5F826B",
     "selfParameter:python": "#94558D",
     "selfParameter.declaration:python": "#94558D",
     "clsParameter:python": "#94558D",

@@ -23,8 +23,7 @@ powershell = "./token_colors/powershell.json"
 ruby = "./token_colors/ruby.json"
 php = "./token_colors/php.json"
 tex = "./token_colors/tex.json"
-
-
+svelte = "./token_colors/svelte.json"
 markdown = "./token_colors/markdown.json"
 vibrant = "./token_colors/vibrant.json"
 
@@ -41,6 +40,7 @@ defs = [
     "js_ts",
     "react",
     "vue",
+    "svelte",
     "python",
     "c_cpp",
     "go",

@@ -1,0 +1,15 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "tokenColors": [
+    {
+      "name": "[Svelte] Component",
+      "scope": [
+        "support.class.component.svelte",
+      ],
+      "settings": {
+        "foreground": "#16BAAC"
+      }
+    }
+  ]
+}
+
