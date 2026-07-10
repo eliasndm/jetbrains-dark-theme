@@ -1,7 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
   "name": "JetBrains Dark",
-  "include": "./jetbrains-dark-syntax.json",
   "colors": {
     "activityBar.activeBorder": "#3474f0",
     "activityBar.background": "#2b2d30",
