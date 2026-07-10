@@ -3,6 +3,7 @@ output = "themes"
 
 [defs]
 editor_colors = "./token_colors/editor_colors.json"
+editor_midnight = "./token_colors/editor_midnight.json"
 common = "./token_colors/common.json"
 json = "./token_colors/json.json"
 toml_ini = "./token_colors/toml_ini.json"
@@ -66,3 +67,9 @@ name = "JetBrains Dark Vibrant"
 filename = "jetbrains-dark-vibrant"
 include = "dark"
 defs = ["vibrant"]
+
+[themes.midnight]
+name = "JetBrains Dark Midnight"
+filename = "jetbrains-dark-midnight"
+include = "vibrant"
+defs = ["editor_midnight"]
