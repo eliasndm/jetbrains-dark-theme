@@ -1,3 +1,6 @@
+.prettierrc
 themes/*
 dist/*
 lib/*
+token_colors/*
+*.md
