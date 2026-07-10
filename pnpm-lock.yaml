@@ -11,9 +11,15 @@ importers:
       '@types/node':
         specifier: ^25.9.3
         version: 25.9.3
+      chalk:
+        specifier: ^5.6.2
+        version: 5.6.2
       jsonc-parser:
         specifier: ^3.3.1
         version: 3.3.1
+      prettier:
+        specifier: ^3.9.5
+        version: 3.9.5
       toml:
         specifier: ^4.1.1
         version: 4.1.1
@@ -26,8 +32,17 @@ packages:
   '@types/node@25.9.3':
     resolution: {integrity: sha512-603BddQMv3pUcr4U2dhujk83N2tTDVr/34wII2B6bJy6g+8WD6yUb11jszNs0gdi4PesVWl7ABt8nYMVpnLUcg==}
 
+  chalk@5.6.2:
+    resolution: {integrity: sha512-7NzBL0rN6fMUW+f7A6Io4h40qQlG+xGmtMxfbnH/K7TAtt8JQWVQK+6g0UXKMeVJoyV5EkkNsErQ8pVD3bLHbA==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
+
   jsonc-parser@3.3.1:
     resolution: {integrity: sha512-HUgH65KyejrUFPvHFPbqOY0rsFip3Bo5wb4ngvdi1EpCYWUQDC5V+Y7mZws+DLkr4M//zQJoanu1SP+87Dv1oQ==}
+
+  prettier@3.9.5:
+    resolution: {integrity: sha512-/FVl766LpUfB5vXgCYOYa0MeV/441Ia99AeICQIQFTY/Nw0roZwULcXpku5i1/m5kt/baz+s4Zogspd839HSMg==}
+    engines: {node: '>=14'}
+    hasBin: true
 
   toml@4.1.1:
     resolution: {integrity: sha512-EBJnVBr3dTXdA89WVFoAIPUqkBjxPMwRqsfuo1r240tKFHXv3zgca4+NJib/h6TyvGF7vOawz0jGuryJCdNHrw==}
@@ -47,7 +62,11 @@ snapshots:
     dependencies:
       undici-types: 7.24.6
 
+  chalk@5.6.2: {}
+
   jsonc-parser@3.3.1: {}
+
+  prettier@3.9.5: {}
 
   toml@4.1.1: {}
 

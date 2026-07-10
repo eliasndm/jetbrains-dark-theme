@@ -17,7 +17,8 @@
     "package": "cd dist/jetbrains-dark && vsce package",
     "prepublishOnly": "npm run build && npm run prepubchecks && npm run package",
     "runpublish": "cd dist/jetbrains-dark && vsce publish",
-    "pub": "npm run prepublishOnly && npm run runpublish"
+    "pub": "npm run prepublishOnly && npm run runpublish",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -59,16 +60,18 @@
         "path": "./themes/jetbrains-dark-vibrant.json"
       },
       {
-        "id": "JetBrains + VSCode Dark Modern",
-        "label": "JetBrains Dark VSCode Modern",
+        "id": "JetBrains Midnight",
+        "label": "JetBrains Midnight",
         "uiTheme": "vs-dark",
-        "path": "./themes/jetbrains-dark-vscode.json"
+        "path": "./themes/jetbrains-dark-midnight.json"
       }
     ]
   },
   "devDependencies": {
     "@types/node": "^25.9.3",
+    "chalk": "^5.6.2",
     "jsonc-parser": "^3.3.1",
+    "prettier": "^3.9.5",
     "toml": "^4.1.1",
     "typescript": "^6.0.3"
   }
