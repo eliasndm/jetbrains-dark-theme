@@ -571,6 +571,13 @@
       }
     },
     {
+      "name": "[typescript] Type",
+      "scope": "entity.name.type.ts",
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
+    {
       "name": "[typescript, javascript] property",
       "scope": [
         "variable.other.object.property.js",

@@ -97,16 +97,15 @@
         "foreground": "#CF8E6D"
       }
     },
-    // {
-    //   "name": "TS Generic Type Var",
-    //   "scope": [
-    //     "entity.name.type.ts",
-    //   ],
-    //   "settings": {
-    //     //"foreground": "#507874"
-    //     "foreground": "#1DB8AB"
-    //   }
-    // },
+    {
+      "name": "[typescript] Type",
+      "scope": [
+        "entity.name.type.ts",
+      ],
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
     {
       "name": "[typescript, javascript] property",
       "scope": [
