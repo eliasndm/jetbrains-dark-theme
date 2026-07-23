@@ -9,6 +9,7 @@
 
 ### Fixed
 
+- Fix color of type in 'as' expression in typescript.
 - Fix color of sizeof operator in C.
 - Fix color of markdown math delimiters.
 - Fix color of void keyword in Typescript.
