@@ -15,46 +15,49 @@ fs.mkdirSync(DIST_THEMES, { recursive: true });
 
 // Metadata files to copy
 const REQUIRED_FILES = [
-  'README.md',
-  'CHANGELOG.md',
-  'icon.png',
-  'package.json',
-  'LICENSE.txt',
+    'README.md',
+    'CHANGELOG.md',
+    'icon.png',
+    'package.json',
+    'LICENSE.txt',
 ];
 
 // Copy metadata files
 for (const file of REQUIRED_FILES) {
-  const srcPath = path.join(SRC_DIR, file);
-  const destPath = path.join(DIST_DIR, file);
-  if (!fs.existsSync(SRC_DIR)) {
-    console.error(`Error: File ${file} does not exist.`);
-    process.exit(1);
-  }
-  fs.cpSync(srcPath, destPath);
+    const srcPath = path.join(SRC_DIR, file);
+    const destPath = path.join(DIST_DIR, file);
+    if (!fs.existsSync(SRC_DIR)) {
+        console.error(`Error: File ${file} does not exist.`);
+        process.exit(1);
+    }
+    fs.cpSync(srcPath, destPath);
 }
 
 // Theme files to process (every JSON file in the themes directory)
 const THEMES = fs
-  .readdirSync(THEMES_DIR)
-  .filter(file => file.endsWith('.json'));
+    .readdirSync(THEMES_DIR)
+    .filter(file => file.endsWith('.json'));
 
 for (const themeFilename of THEMES) {
-  const themeFilepath = fs.readFileSync(path.join(THEMES_DIR, themeFilename), {
-    encoding: 'utf8',
-  });
+    const themeFilepath = fs.readFileSync(
+        path.join(THEMES_DIR, themeFilename),
+        {
+            encoding: 'utf8',
+        }
+    );
 
-  let themeJson;
-  try {
-    let errorsList = [];
-    themeJson = jsonc.parse(themeFilepath, errorsList);
-  } catch (err) {
-    console.error(`Failed to parse ${themeFilename}:`, err.message);
-    throw err;
-  }
+    let themeJson;
+    try {
+        let errorsList = [];
+        themeJson = jsonc.parse(themeFilepath, errorsList);
+    } catch (err) {
+        console.error(`Failed to parse ${themeFilename}:`, err.message);
+        throw err;
+    }
 
-  const minified = JSON.stringify(themeJson);
-  const outPath = path.join(DIST_THEMES, themeFilename);
-  fs.writeFileSync(outPath, minified, 'utf8');
+    const minified = JSON.stringify(themeJson);
+    const outPath = path.join(DIST_THEMES, themeFilename);
+    fs.writeFileSync(outPath, minified, 'utf8');
 }
 
 console.log('Built extension successfully.');
